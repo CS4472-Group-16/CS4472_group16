@@ -1,0 +1,93 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+    - opened
+    - synchronize
+    - reopened
+    - labeled
+    - unlabeled
+  push:
+    branches:
+      - dev
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-java@v6
+        with:
+          distribution: 'temurin'
+          java-version: '11'
+          cache: 'maven'
+      - run: mvn -B "-Dcheckstyle.config.location=checkstyle.xml" checkstyle:check
+
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-java@v6
+        with:
+          distribution: 'temurin'
+          java-version: '11'
+          cache: 'maven'
+
+      - name: Validate PR labels
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const labels = context.payload.pull_request.labels
+              .map(label => label.name);
+
+            const phases = ['phase:tests', 'phase:fix'];
+            const selected = phases.filter(label =>
+              labels.includes(label)
+            );
+
+            if (selected.length !== 1) {
+              core.setFailed(
+                `Expected exactly one of ${phases.join(' or ')}. ` +
+                `Found: ${selected.length === 0 ? 'none' : selected.join(', ')}.`
+              );
+            } else {
+              core.info(`Selected phase: ${selected[0]}`);
+            }
+      
+      - name: Test phase
+        if: >-
+          github.event_name == 'pull_request' &&
+          contains(github.event.pull_request.labels.*.name, 'phase:tests')
+        run: mvn -B -Dmaven.test.failure.ignore=true test
+      
+      - name: Fix phase
+        if: >-
+          github.event_name == 'pull_request' &&
+          contains(github.event.pull_request.labels.*.name, 'phase:fix')
+        run: mvn -B test
+        
+      - name: dev push
+        if: >-
+          github.event_name == 'push'
+        run: mvn -B -Dmaven.test.failure.ignore=true test
+        
+      - name: Publish JUnit results
+        if: always() && github.event_name == 'pull_request'
+        continue-on-error: true
+        uses: EnricoMi/publish-unit-test-result-action@v2
+        with:
+          files: '**/surefire-reports/TEST-*.xml'
+          check_name: JUnit Test Results
+          comment_mode: always
+          action_fail: false
+
+      - name: Generate JaCoCo report
+        if: always()
+        continue-on-error: true
+        run: mvn -B jacoco:report
+
+      
