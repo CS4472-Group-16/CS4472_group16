@@ -45,7 +45,13 @@ jobs:
               core.setOutput('mode', 'tests');
               return;
             }
-            const labels = context.payload.pull_request.labels.map(label => label.name);
+            const { data: labelsData } = await github.rest.issues.listLabelsOnIssue({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number
+            });
+
+            const labels = labelsData.map(label => label.name);
             const phases = ['phase:tests', 'phase:fix'].filter(label => labels.includes(label));
             if (phases.length !== 1) {
               core.setFailed('Expected exactly one of phase:tests or phase:fix; found ' + phases.length);
