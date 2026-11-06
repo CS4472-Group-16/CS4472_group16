@@ -2,17 +2,13 @@ name: CI
 
 on:
   pull_request:
-    branches:
-      - main
-    types:
-    - opened
-    - synchronize
-    - reopened
-    - labeled
-    - unlabeled
+    branches: [main]
+    types: [opened, synchronize, reopened, labeled, unlabeled, ready_for_review]
   push:
-    branches:
-      - dev
+    branches: [dev]
+
+permissions:
+  contents: read
 
 jobs:
   lint:
@@ -21,73 +17,105 @@ jobs:
       - uses: actions/checkout@v6
       - uses: actions/setup-java@v6
         with:
-          distribution: 'temurin'
+          distribution: temurin
           java-version: '11'
-          cache: 'maven'
-      - run: mvn -B "-Dcheckstyle.config.location=checkstyle.xml" checkstyle:check
+          cache: maven
+      - run: mvn -B checkstyle:check
 
   tests:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      checks: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-java@v6
         with:
-          distribution: 'temurin'
+          distribution: temurin
           java-version: '11'
-          cache: 'maven'
+          cache: maven
 
       - name: Validate PR labels
-        if: github.event_name == 'pull_request'
+        id: phase
         uses: actions/github-script@v7
         with:
           script: |
-            const labels = context.payload.pull_request.labels
-              .map(label => label.name);
-
-            const phases = ['phase:tests', 'phase:fix'];
-            const selected = phases.filter(label =>
-              labels.includes(label)
-            );
-
-            if (selected.length !== 1) {
-              core.setFailed(
-                `Expected exactly one of ${phases.join(' or ')}. ` +
-                `Found: ${selected.length === 0 ? 'none' : selected.join(', ')}.`
-              );
-            } else {
-              core.info(`Selected phase: ${selected[0]}`);
+            if (context.eventName === 'push') {
+              core.setOutput('mode', 'tests');
+              return;
             }
-      
-      - name: Test phase
-        if: >-
-          github.event_name == 'pull_request' &&
-          contains(github.event.pull_request.labels.*.name, 'phase:tests')
+            const labels = context.payload.pull_request.labels.map(label => label.name);
+            const phases = ['phase:tests', 'phase:fix'].filter(label => labels.includes(label));
+            if (phases.length !== 1) {
+              core.setFailed('Expected exactly one of phase:tests or phase:fix; found ' + phases.length);
+              return;
+            }
+            core.setOutput('mode', phases[0].split(':')[1]);
+
+      - name: Run informational tests
+        if: steps.phase.outputs.mode == 'tests'
         run: mvn -B -Dmaven.test.failure.ignore=true test
-      
-      - name: Fix phase
-        if: >-
-          github.event_name == 'pull_request' &&
-          contains(github.event.pull_request.labels.*.name, 'phase:fix')
+
+      - name: Run strict tests
+        if: steps.phase.outputs.mode == 'fix'
         run: mvn -B test
-        
-      - name: dev push
-        if: >-
-          github.event_name == 'push'
-        run: mvn -B -Dmaven.test.failure.ignore=true test
-        
+
+      - name: Generate coverage even after strict test failures
+        if: always() && steps.phase.outputs.mode != ''
+        continue-on-error: true
+        run: mvn -B jacoco:report
+
+      - name: Verify test execution and summarize coverage
+        if: success() || failure()
+        run: python3 tools/ci_report.py
+
       - name: Publish JUnit results
         if: always() && github.event_name == 'pull_request'
         continue-on-error: true
         uses: EnricoMi/publish-unit-test-result-action@v2
         with:
-          files: '**/surefire-reports/TEST-*.xml'
+          files: target/surefire-reports/TEST-*.xml
           check_name: JUnit Test Results
           comment_mode: always
           action_fail: false
+          fail_on: nothing
 
-      - name: Generate JaCoCo report
+      - name: Comment coverage
+        if: always() && github.event_name == 'pull_request'
+        continue-on-error: true
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            if (!fs.existsSync('target/ci-report.md')) {
+              core.warning('No coverage summary was generated.');
+              return;
+            }
+            const body = fs.readFileSync('target/ci-report.md', 'utf8');
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              ...context.repo, issue_number: context.issue.number
+            });
+            const previous = comments.find(comment =>
+              comment.user.type === 'Bot' && comment.body.includes('<!-- assignment1-coverage -->'));
+            if (previous) {
+              await github.rest.issues.updateComment({
+                ...context.repo, comment_id: previous.id, body
+              });
+            } else {
+              await github.rest.issues.createComment({
+                ...context.repo, issue_number: context.issue.number, body
+              });
+            }
+
+      - name: Upload results and coverage
         if: always()
         continue-on-error: true
-        run: mvn -B jacoco:report
-
-      
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results-and-coverage
+          path: |
+            target/surefire-reports/
+            target/site/jacoco/
+            target/ci-report.md
+          if-no-files-found: warn

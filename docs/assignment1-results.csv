@@ -1,0 +1,1647 @@
+case,result,fault,observed_assertion,runtime_seconds
+P01,FAIL,P-LENGTH,P01 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.002
+P02,FAIL,P-LENGTH,P02 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P03,FAIL,P-LENGTH,P03 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P04,FAIL,P-LENGTH,P04 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P05,FAIL,P-LENGTH,P05 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.001
+P06,PASS,—,,0.0
+P07,PASS,—,,0.0
+P08,FAIL,P-LENGTH,"P08 ==> Expected atm.exceptions.InvalidPinFormatException to be thrown, but nothing was thrown.",0.001
+P09,PASS,—,,0.0
+P10,PASS,—,,0.0
+P11,PASS,—,,0.002
+P12,PASS,—,,0.0
+P13,PASS,—,,0.0
+P14,PASS,—,,0.0
+P15,PASS,—,,0.0
+P16,PASS,—,,0.0
+P17,FAIL,P-LENGTH,P17 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.001
+P18,FAIL,P-LENGTH,P18 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P19,FAIL,P-LENGTH,P19 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P20,FAIL,P-LENGTH,P20 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P21,PASS,—,,0.0
+P22,PASS,—,,0.0
+P23,FAIL,P-LENGTH,P23 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.001
+P24,FAIL,P-LENGTH,P24 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P25,FAIL,P-LENGTH,P25 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P26,FAIL,P-LENGTH,P26 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.001
+P27,PASS,—,,0.0
+P28,PASS,—,,0.0
+P29,FAIL,P-LENGTH,P29 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P30,FAIL,P-LENGTH,P30 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P31,FAIL,P-LENGTH,P31 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P32,FAIL,P-LENGTH,P32 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P33,PASS,—,,0.0
+P34,PASS,—,,0.001
+P35,FAIL,P-LENGTH,P35 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P36,FAIL,P-LENGTH,P36 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P37,FAIL,P-LENGTH,P37 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.001
+P38,FAIL,P-LENGTH,P38 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P39,PASS,—,,0.001
+P40,PASS,—,,0.0
+P41,FAIL,P-LENGTH,P41 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P42,FAIL,P-LENGTH,P42 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P43,FAIL,P-LENGTH,P43 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P44,FAIL,P-LENGTH,P44 ==> Unexpected exception thrown: atm.exceptions.InvalidPinFormatException,0.0
+P45,PASS,—,,0.0
+S01,PASS,—,,0.018
+S02,PASS,—,,0.013
+S03,PASS,—,,0.001
+S04,PASS,—,,0.0
+S05,PASS,—,,0.001
+S06,PASS,—,,0.0
+S07,PASS,—,,0.001
+S08,PASS,—,,0.0
+S09,PASS,—,,0.001
+S10,PASS,—,,0.0
+S11,PASS,—,,0.001
+S12,PASS,—,,0.0
+S13,PASS,—,,0.001
+S14,PASS,—,,0.0
+S15,PASS,—,,0.001
+S16,PASS,—,,0.0
+S17,PASS,—,,0.001
+S18,PASS,—,,0.0
+S19,PASS,—,,0.001
+S20,PASS,—,,0.001
+S21,PASS,—,,0.001
+S22,PASS,—,,0.001
+S23,PASS,—,,0.0
+S24,PASS,—,,0.001
+S25,PASS,—,,0.0
+S26,PASS,—,,0.0
+S27,PASS,—,,0.0
+S28,PASS,—,,0.001
+S29,PASS,—,,0.0
+S30,PASS,—,,0.001
+S31,PASS,—,,0.0
+S32,PASS,—,,0.001
+S33,PASS,—,,0.0
+S34,PASS,—,,0.001
+S35,PASS,—,,0.0
+S36,FAIL,S-POSITIVE,"S36 ==> Expected atm.exceptions.InvalidAmountException to be thrown, but nothing was thrown.",0.001
+S37,PASS,—,,0.001
+S38,FAIL,S-POSITIVE,"S38 ==> Expected atm.exceptions.InvalidAmountException to be thrown, but nothing was thrown.",0.0
+S39,PASS,—,,0.001
+S40,PASS,—,,0.001
+S41,PASS,—,,0.0
+S42,FAIL,S-BILLS,S42 ==> Unexpected exception thrown: atm.exceptions.InvalidAmountException,0.001
+S43,PASS,—,,0.001
+S44,FAIL,S-BILLS,S44 ==> Unexpected exception thrown: atm.exceptions.InvalidAmountException,0.001
+S45,PASS,—,,0.001
+S46,FAIL,S-BILLS,S46 ==> Unexpected exception thrown: atm.exceptions.InvalidAmountException,0.0
+S47,PASS,—,,0.0
+S48,PASS,—,,0.001
+S49,FAIL,S-LIMIT,"S49 ==> Expected atm.exceptions.InvalidAmountException to be thrown, but nothing was thrown.",0.0
+W0001,FAIL,W-INVALID,"W0001 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.017
+W0002,FAIL,W-INVALID,"W0002 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0003,FAIL,W-INVALID,"W0003 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0004,FAIL,W-INVALID,"W0004 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0005,FAIL,W-INVALID,"W0005 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0006,FAIL,W-INVALID,"W0006 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0007,FAIL,W-INVALID,"W0007 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0008,FAIL,W-INVALID,"W0008 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0009,FAIL,W-INVALID,"W0009 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0010,FAIL,W-INVALID,"W0010 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0011,FAIL,W-INVALID,"W0011 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0012,FAIL,W-INVALID,"W0012 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0013,FAIL,W-INVALID,"W0013 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0014,FAIL,W-INVALID,"W0014 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0015,FAIL,W-INVALID,"W0015 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0016,FAIL,W-INVALID,"W0016 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0017,FAIL,W-INVALID,"W0017 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0018,FAIL,W-INVALID,"W0018 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0019,FAIL,W-INVALID,"W0019 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0020,FAIL,W-INVALID,"W0020 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0021,FAIL,W-INVALID,"W0021 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0022,FAIL,W-INVALID,"W0022 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0023,FAIL,W-INVALID,"W0023 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0024,FAIL,W-INVALID,"W0024 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0025,FAIL,W-INVALID,"W0025 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0026,FAIL,W-INVALID,"W0026 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0027,FAIL,W-INVALID,"W0027 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0028,FAIL,W-INVALID,"W0028 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0029,FAIL,W-INVALID,"W0029 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0030,FAIL,W-INVALID,"W0030 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0031,FAIL,W-INVALID,"W0031 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0032,FAIL,W-INVALID,"W0032 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0033,FAIL,W-INVALID,"W0033 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0034,FAIL,W-INVALID,"W0034 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0035,FAIL,W-INVALID,"W0035 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0036,FAIL,W-INVALID,"W0036 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0037,FAIL,W-INVALID,"W0037 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0038,FAIL,W-INVALID,"W0038 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0039,FAIL,W-INVALID,"W0039 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0040,FAIL,W-INVALID,"W0040 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0041,FAIL,W-INVALID,"W0041 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0042,FAIL,W-INVALID,"W0042 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0043,FAIL,W-INVALID,"W0043 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0044,FAIL,W-INVALID,"W0044 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0045,FAIL,W-INVALID,"W0045 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0046,FAIL,W-INVALID,"W0046 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0047,FAIL,W-INVALID,"W0047 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0048,FAIL,W-INVALID,"W0048 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0049,FAIL,W-INVALID,"W0049 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0050,FAIL,W-INVALID,"W0050 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0051,FAIL,W-INVALID,"W0051 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0052,FAIL,W-INVALID,"W0052 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0053,FAIL,W-INVALID,"W0053 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0054,FAIL,W-INVALID,"W0054 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0055,FAIL,W-INVALID,"W0055 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0056,FAIL,W-INVALID,"W0056 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0057,FAIL,W-INVALID,"W0057 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0058,FAIL,W-INVALID,"W0058 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0059,FAIL,W-INVALID,"W0059 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0060,FAIL,W-INVALID,"W0060 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0061,FAIL,W-INVALID,"W0061 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0062,FAIL,W-INVALID,"W0062 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0063,FAIL,W-INVALID,"W0063 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0064,FAIL,W-INVALID,"W0064 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0065,FAIL,W-INVALID,"W0065 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0066,FAIL,W-INVALID,"W0066 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0067,FAIL,W-INVALID,"W0067 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.003
+W0068,FAIL,W-INVALID,"W0068 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0069,FAIL,W-INVALID,"W0069 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0070,FAIL,W-INVALID,"W0070 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0071,FAIL,W-INVALID,"W0071 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0072,FAIL,W-INVALID,"W0072 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0073,FAIL,W-INVALID,"W0073 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0074,FAIL,W-INVALID,"W0074 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0075,FAIL,W-INVALID,"W0075 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0076,FAIL,W-INVALID,"W0076 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0077,FAIL,W-INVALID,"W0077 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0078,FAIL,W-INVALID,"W0078 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0079,FAIL,W-INVALID,"W0079 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0080,FAIL,W-INVALID,"W0080 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0081,FAIL,W-INVALID,"W0081 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0082,FAIL,W-INVALID,"W0082 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0083,FAIL,W-INVALID,"W0083 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0084,FAIL,W-INVALID,"W0084 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0085,FAIL,W-INVALID,"W0085 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0086,FAIL,W-INVALID,"W0086 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0087,FAIL,W-INVALID,"W0087 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0088,FAIL,W-INVALID,"W0088 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0089,FAIL,W-INVALID,"W0089 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0090,FAIL,W-INVALID,"W0090 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0091,FAIL,W-INVALID,"W0091 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0092,FAIL,W-INVALID,"W0092 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0093,FAIL,W-INVALID,"W0093 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0094,FAIL,W-INVALID,"W0094 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0095,FAIL,W-INVALID,"W0095 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0096,FAIL,W-INVALID,"W0096 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0097,FAIL,W-INVALID,"W0097 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0098,FAIL,W-INVALID,"W0098 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0099,FAIL,W-INVALID,"W0099 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0100,FAIL,W-INVALID,"W0100 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0101,FAIL,W-INVALID,"W0101 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0102,FAIL,W-INVALID,"W0102 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0103,FAIL,W-INVALID,"W0103 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0104,FAIL,W-INVALID,"W0104 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0105,FAIL,W-INVALID,"W0105 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0106,FAIL,W-INVALID,"W0106 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0107,FAIL,W-INVALID,"W0107 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0108,FAIL,W-INVALID,"W0108 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0109,FAIL,W-INVALID,"W0109 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0110,FAIL,W-INVALID,"W0110 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0111,FAIL,W-INVALID,"W0111 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0112,FAIL,W-INVALID,"W0112 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0113,FAIL,W-INVALID,"W0113 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0114,FAIL,W-INVALID,"W0114 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0115,FAIL,W-INVALID,"W0115 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0116,FAIL,W-INVALID,"W0116 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0117,FAIL,W-INVALID,"W0117 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0118,FAIL,W-INVALID,"W0118 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0119,FAIL,W-INVALID,"W0119 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0120,FAIL,W-INVALID,"W0120 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0121,FAIL,W-INVALID,"W0121 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0122,FAIL,W-INVALID,"W0122 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0123,FAIL,W-INVALID,"W0123 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0124,FAIL,W-INVALID,"W0124 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0125,FAIL,W-INVALID,"W0125 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0126,FAIL,W-INVALID,"W0126 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0127,FAIL,W-INVALID,"W0127 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0128,FAIL,W-INVALID,"W0128 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0129,FAIL,W-INVALID,"W0129 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0130,FAIL,W-INVALID,"W0130 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0131,FAIL,W-INVALID,"W0131 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0132,FAIL,W-INVALID,"W0132 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0133,FAIL,W-INVALID,"W0133 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0134,FAIL,W-INVALID,"W0134 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0135,FAIL,W-INVALID,"W0135 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0136,FAIL,W-INVALID,"W0136 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0137,FAIL,W-INVALID,"W0137 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0138,FAIL,W-INVALID,"W0138 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0139,FAIL,W-INVALID,"W0139 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0140,FAIL,W-INVALID,"W0140 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0141,FAIL,W-INVALID,"W0141 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0142,FAIL,W-INVALID,"W0142 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0143,FAIL,W-INVALID,"W0143 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0144,FAIL,W-INVALID,"W0144 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0145,FAIL,W-INVALID,"W0145 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0146,FAIL,W-INVALID,"W0146 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0147,FAIL,W-INVALID,"W0147 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0148,FAIL,W-INVALID,"W0148 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0149,FAIL,W-INVALID,"W0149 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0150,FAIL,W-INVALID,"W0150 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0151,FAIL,W-INVALID,"W0151 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0152,FAIL,W-INVALID,"W0152 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0153,FAIL,W-INVALID,"W0153 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0154,FAIL,W-INVALID,"W0154 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0155,FAIL,W-INVALID,"W0155 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0156,FAIL,W-INVALID,"W0156 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0157,FAIL,W-INVALID,"W0157 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0158,FAIL,W-INVALID,"W0158 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0159,FAIL,W-INVALID,"W0159 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0160,FAIL,W-INVALID,"W0160 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0161,FAIL,W-INVALID,"W0161 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0162,FAIL,W-INVALID,"W0162 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0163,FAIL,W-INVALID,"W0163 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0164,FAIL,W-INVALID,"W0164 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0165,FAIL,W-INVALID,"W0165 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0166,FAIL,W-INVALID,"W0166 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0167,FAIL,W-INVALID,"W0167 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0168,FAIL,W-INVALID,"W0168 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0169,FAIL,W-INVALID,"W0169 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0170,FAIL,W-INVALID,"W0170 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0171,FAIL,W-INVALID,"W0171 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0172,FAIL,W-INVALID,"W0172 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0173,FAIL,W-INVALID,"W0173 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0174,FAIL,W-INVALID,"W0174 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0175,FAIL,W-INVALID,"W0175 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0176,FAIL,W-INVALID,"W0176 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0177,FAIL,W-INVALID,"W0177 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0178,FAIL,W-INVALID,"W0178 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0179,FAIL,W-INVALID,"W0179 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0180,FAIL,W-INVALID,"W0180 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0181,FAIL,W-INVALID,"W0181 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0182,FAIL,W-INVALID,"W0182 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0183,FAIL,W-INVALID,"W0183 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0184,FAIL,W-INVALID,"W0184 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0185,FAIL,W-INVALID,"W0185 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0186,FAIL,W-INVALID,"W0186 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0187,FAIL,W-INVALID,"W0187 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0188,FAIL,W-INVALID,"W0188 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0189,FAIL,W-INVALID,"W0189 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0190,FAIL,W-INVALID,"W0190 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0191,FAIL,W-INVALID,"W0191 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0192,FAIL,W-INVALID,"W0192 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0193,FAIL,W-INVALID,"W0193 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0194,FAIL,W-INVALID,"W0194 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0195,FAIL,W-INVALID,"W0195 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0196,FAIL,W-INVALID,"W0196 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0197,FAIL,W-INVALID,"W0197 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0198,FAIL,W-INVALID,"W0198 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0199,FAIL,W-INVALID,"W0199 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0200,FAIL,W-INVALID,"W0200 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0201,FAIL,W-INVALID,"W0201 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0202,FAIL,W-INVALID,"W0202 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0203,FAIL,W-INVALID,"W0203 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0204,FAIL,W-INVALID,"W0204 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0205,FAIL,W-INVALID,"W0205 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0206,FAIL,W-INVALID,"W0206 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0207,FAIL,W-INVALID,"W0207 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0208,FAIL,W-INVALID,"W0208 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0209,FAIL,W-INVALID,"W0209 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0210,FAIL,W-INVALID,"W0210 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0211,FAIL,W-INVALID,"W0211 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0212,FAIL,W-INVALID,"W0212 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0213,FAIL,W-INVALID,"W0213 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0214,FAIL,W-INVALID,"W0214 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0215,FAIL,W-INVALID,"W0215 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0216,FAIL,W-INVALID,"W0216 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0217,FAIL,W-INVALID,"W0217 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0218,FAIL,W-INVALID,"W0218 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0219,FAIL,W-INVALID,"W0219 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0220,FAIL,W-INVALID,"W0220 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0221,FAIL,W-INVALID,"W0221 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0222,FAIL,W-INVALID,"W0222 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0223,FAIL,W-INVALID,"W0223 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0224,FAIL,W-INVALID,"W0224 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0225,FAIL,W-INVALID,"W0225 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0226,FAIL,W-INVALID,"W0226 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0227,FAIL,W-INVALID,"W0227 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0228,FAIL,W-INVALID,"W0228 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0229,FAIL,W-INVALID,"W0229 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0230,FAIL,W-INVALID,"W0230 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0231,FAIL,W-INVALID,"W0231 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0232,FAIL,W-INVALID,"W0232 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0233,FAIL,W-INVALID,"W0233 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0234,FAIL,W-INVALID,"W0234 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0235,FAIL,W-INVALID,"W0235 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0236,PASS,—,,0.002
+W0237,PASS,—,,0.0
+W0238,PASS,—,,0.0
+W0239,PASS,—,,0.0
+W0240,PASS,—,,0.0
+W0241,PASS,—,,0.0
+W0242,PASS,—,,0.0
+W0243,FAIL,W-INVALID,"W0243 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0244,FAIL,W-INVALID,"W0244 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0245,PASS,—,,0.0
+W0246,PASS,—,,0.0
+W0247,PASS,—,,0.001
+W0248,PASS,—,,0.0
+W0249,PASS,—,,0.0
+W0250,PASS,—,,0.0
+W0251,PASS,—,,0.001
+W0252,FAIL,W-INVALID,"W0252 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0253,FAIL,W-INVALID,"W0253 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0254,PASS,—,,0.0
+W0255,PASS,—,,0.0
+W0256,PASS,—,,0.0
+W0257,PASS,—,,0.0
+W0258,PASS,—,,0.0
+W0259,PASS,—,,0.0
+W0260,PASS,—,,0.0
+W0261,FAIL,W-INVALID,"W0261 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0262,FAIL,W-INVALID,"W0262 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0263,PASS,—,,0.001
+W0264,PASS,—,,0.0
+W0265,PASS,—,,0.0
+W0266,PASS,—,,0.0
+W0267,PASS,—,,0.001
+W0268,PASS,—,,0.0
+W0269,PASS,—,,0.0
+W0270,FAIL,W-INVALID,"W0270 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0271,FAIL,W-INVALID,"W0271 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0272,PASS,—,,0.0
+W0273,PASS,—,,0.0
+W0274,PASS,—,,0.0
+W0275,PASS,—,,0.0
+W0276,PASS,—,,0.0
+W0277,PASS,—,,0.0
+W0278,PASS,—,,0.0
+W0279,FAIL,W-INVALID,"W0279 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0280,FAIL,W-INVALID,"W0280 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0281,PASS,—,,0.0
+W0282,PASS,—,,0.001
+W0283,PASS,—,,0.0
+W0284,PASS,—,,0.0
+W0285,PASS,—,,0.0
+W0286,PASS,—,,0.001
+W0287,PASS,—,,0.0
+W0288,FAIL,W-INVALID,"W0288 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0289,FAIL,W-INVALID,"W0289 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0290,PASS,—,,0.0
+W0291,PASS,—,,0.0
+W0292,PASS,—,,0.0
+W0293,PASS,—,,0.0
+W0294,PASS,—,,0.001
+W0295,PASS,—,,0.0
+W0296,PASS,—,,0.0
+W0297,FAIL,W-INVALID,"W0297 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0298,FAIL,W-INVALID,"W0298 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0299,PASS,—,,0.0
+W0300,PASS,—,,0.0
+W0301,PASS,—,,0.0
+W0302,PASS,—,,0.001
+W0303,PASS,—,,0.0
+W0304,PASS,—,,0.0
+W0305,PASS,—,,0.0
+W0306,FAIL,W-INVALID,"W0306 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0307,FAIL,W-INVALID,"W0307 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0308,PASS,—,,0.0
+W0309,PASS,—,,0.0
+W0310,PASS,—,,0.0
+W0311,PASS,—,,0.0
+W0312,PASS,—,,0.0
+W0313,PASS,—,,0.0
+W0314,PASS,—,,0.001
+W0315,FAIL,W-INVALID,"W0315 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0316,FAIL,W-INVALID,"W0316 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0317,PASS,—,,0.0
+W0318,PASS,—,,0.0
+W0319,PASS,—,,0.0
+W0320,PASS,—,,0.0
+W0321,PASS,—,,0.0
+W0322,PASS,—,,0.0
+W0323,PASS,—,,0.0
+W0324,FAIL,W-INVALID,"W0324 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0325,FAIL,W-INVALID,"W0325 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0326,PASS,—,,0.0
+W0327,PASS,—,,0.0
+W0328,PASS,—,,0.0
+W0329,PASS,—,,0.0
+W0330,PASS,—,,0.0
+W0331,PASS,—,,0.0
+W0332,PASS,—,,0.0
+W0333,FAIL,W-INVALID,"W0333 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0334,FAIL,W-INVALID,"W0334 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0335,PASS,—,,0.0
+W0336,PASS,—,,0.0
+W0337,PASS,—,,0.0
+W0338,PASS,—,,0.0
+W0339,PASS,—,,0.0
+W0340,PASS,—,,0.0
+W0341,PASS,—,,0.0
+W0342,FAIL,W-INVALID,"W0342 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0343,FAIL,W-INVALID,"W0343 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0344,PASS,—,,0.0
+W0345,PASS,—,,0.0
+W0346,PASS,—,,0.0
+W0347,PASS,—,,0.0
+W0348,PASS,—,,0.0
+W0349,PASS,—,,0.0
+W0350,PASS,—,,0.0
+W0351,FAIL,W-INVALID,"W0351 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0352,FAIL,W-INVALID,"W0352 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0353,PASS,—,,0.0
+W0354,PASS,—,,0.0
+W0355,PASS,—,,0.0
+W0356,PASS,—,,0.001
+W0357,PASS,—,,0.0
+W0358,PASS,—,,0.0
+W0359,PASS,—,,0.0
+W0360,FAIL,W-INVALID,"W0360 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0361,FAIL,W-INVALID,"W0361 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0362,PASS,—,,0.0
+W0363,PASS,—,,0.001
+W0364,PASS,—,,0.0
+W0365,PASS,—,,0.0
+W0366,PASS,—,,0.0
+W0367,PASS,—,,0.0
+W0368,PASS,—,,0.001
+W0369,FAIL,W-INVALID,"W0369 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0370,FAIL,W-INVALID,"W0370 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0371,PASS,—,,0.0
+W0372,PASS,—,,0.0
+W0373,PASS,—,,0.0
+W0374,PASS,—,,0.0
+W0375,PASS,—,,0.0
+W0376,PASS,—,,0.0
+W0377,PASS,—,,0.0
+W0378,FAIL,W-INVALID,"W0378 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0379,FAIL,W-INVALID,"W0379 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0380,PASS,—,,0.0
+W0381,PASS,—,,0.0
+W0382,PASS,—,,0.0
+W0383,PASS,—,,0.0
+W0384,PASS,—,,0.0
+W0385,PASS,—,,0.0
+W0386,PASS,—,,0.0
+W0387,FAIL,W-INVALID,"W0387 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0388,FAIL,W-INVALID,"W0388 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0389,PASS,—,,0.0
+W0390,PASS,—,,0.0
+W0391,PASS,—,,0.0
+W0392,PASS,—,,0.0
+W0393,PASS,—,,0.0
+W0394,PASS,—,,0.0
+W0395,PASS,—,,0.0
+W0396,FAIL,W-INVALID,"W0396 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0397,FAIL,W-INVALID,"W0397 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0398,PASS,—,,0.0
+W0399,PASS,—,,0.0
+W0400,PASS,—,,0.0
+W0401,PASS,—,,0.0
+W0402,PASS,—,,0.0
+W0403,PASS,—,,0.0
+W0404,PASS,—,,0.0
+W0405,FAIL,W-INVALID,"W0405 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0406,FAIL,W-INVALID,"W0406 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0407,PASS,—,,0.0
+W0408,PASS,—,,0.0
+W0409,PASS,—,,0.0
+W0410,PASS,—,,0.0
+W0411,PASS,—,,0.0
+W0412,PASS,—,,0.001
+W0413,PASS,—,,0.0
+W0414,FAIL,W-INVALID,"W0414 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0415,FAIL,W-INVALID,"W0415 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0416,PASS,—,,0.0
+W0417,PASS,—,,0.001
+W0418,PASS,—,,0.0
+W0419,PASS,—,,0.0
+W0420,PASS,—,,0.0
+W0421,PASS,—,,0.0
+W0422,PASS,—,,0.0
+W0423,FAIL,W-INVALID,"W0423 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0424,FAIL,W-INVALID,"W0424 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0425,PASS,—,,0.0
+W0426,PASS,—,,0.0
+W0427,PASS,—,,0.0
+W0428,PASS,—,,0.0
+W0429,PASS,—,,0.0
+W0430,PASS,—,,0.0
+W0431,PASS,—,,0.0
+W0432,FAIL,W-INVALID,"W0432 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0433,FAIL,W-INVALID,"W0433 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0434,FAIL,W-INVALID,"W0434 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0435,FAIL,W-INVALID,"W0435 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0436,FAIL,W-INVALID,"W0436 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0437,FAIL,W-INVALID,"W0437 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0438,FAIL,W-INVALID,"W0438 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0439,FAIL,W-INVALID,"W0439 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0440,FAIL,W-INVALID,"W0440 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0441,FAIL,W-INVALID,"W0441 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0442,FAIL,W-INVALID,"W0442 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0443,FAIL,W-INVALID,"W0443 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0444,FAIL,W-INVALID,"W0444 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0445,FAIL,W-INVALID,"W0445 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0446,FAIL,W-INVALID,"W0446 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0447,FAIL,W-INVALID,"W0447 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0448,FAIL,W-INVALID,"W0448 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0449,FAIL,W-INVALID,"W0449 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0450,FAIL,W-INVALID,"W0450 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0451,FAIL,W-INVALID,"W0451 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0452,FAIL,W-STUDENT,W0452 ==> expected: <1.0E-5> but was: <0.0>,0.001
+W0453,FAIL,W-STUDENT,W0453 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0454,FAIL,W-STUDENT,W0454 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0455,FAIL,W-STUDENT,W0455 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0456,FAIL,W-STUDENT,W0456 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0457,FAIL,W-STUDENT,W0457 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0458,FAIL,W-STUDENT,W0458 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0459,FAIL,W-INVALID,"W0459 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0460,FAIL,W-INVALID,"W0460 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0461,FAIL,W-LOW,W0461 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0462,FAIL,W-LOW,W0462 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0463,FAIL,W-LOW,W0463 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0464,FAIL,W-LOW,W0464 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0465,FAIL,W-LOW,W0465 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0466,FAIL,W-LOW,W0466 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0467,FAIL,W-LOW,W0467 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0468,FAIL,W-INVALID,"W0468 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0469,FAIL,W-INVALID,"W0469 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0470,FAIL,W-STUDENT,W0470 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0471,FAIL,W-STUDENT,W0471 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0472,FAIL,W-STUDENT,W0472 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0473,FAIL,W-STUDENT,W0473 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0474,FAIL,W-STUDENT,W0474 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0475,FAIL,W-STUDENT,W0475 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0476,FAIL,W-STUDENT,W0476 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0477,FAIL,W-INVALID,"W0477 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0478,FAIL,W-INVALID,"W0478 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0479,FAIL,W-LOW,W0479 ==> expected: <3.0E-5> but was: <2.0E-5>,0.001
+W0480,FAIL,W-LOW,W0480 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0481,FAIL,W-LOW,W0481 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0482,FAIL,W-LOW,W0482 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0483,FAIL,W-LOW,W0483 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0484,FAIL,W-LOW,W0484 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0485,FAIL,W-LOW,W0485 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0486,FAIL,W-INVALID,"W0486 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0487,FAIL,W-INVALID,"W0487 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0488,FAIL,W-STUDENT,W0488 ==> expected: <1.0E-5> but was: <0.0>,0.001
+W0489,FAIL,W-STUDENT,W0489 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0490,FAIL,W-STUDENT,W0490 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0491,FAIL,W-STUDENT,W0491 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0492,FAIL,W-STUDENT,W0492 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0493,FAIL,W-STUDENT,W0493 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0494,FAIL,W-STUDENT,W0494 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0495,FAIL,W-INVALID,"W0495 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0496,FAIL,W-INVALID,"W0496 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0497,FAIL,W-LOW,W0497 ==> expected: <3.0E-5> but was: <2.0E-5>,0.001
+W0498,FAIL,W-LOW,W0498 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0499,FAIL,W-LOW,W0499 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0500,FAIL,W-LOW,W0500 ==> expected: <3.0E-5> but was: <2.0E-5>,0.001
+W0501,FAIL,W-LOW,W0501 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0502,FAIL,W-LOW,W0502 ==> expected: <3.0E-5> but was: <2.0E-5>,0.0
+W0503,FAIL,W-LOW,W0503 ==> expected: <3.0E-5> but was: <2.0E-5>,0.001
+W0504,FAIL,W-INVALID,"W0504 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0505,FAIL,W-INVALID,"W0505 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0506,FAIL,W-STUDENT,W0506 ==> expected: <1.0E-5> but was: <0.0>,0.001
+W0507,FAIL,W-STUDENT,W0507 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0508,FAIL,W-STUDENT,W0508 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0509,FAIL,W-STUDENT,W0509 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0510,FAIL,W-STUDENT,W0510 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0511,FAIL,W-STUDENT,W0511 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0512,FAIL,W-STUDENT,W0512 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0513,FAIL,W-INVALID,"W0513 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0514,FAIL,W-INVALID,"W0514 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0515,PASS,—,,0.0
+W0516,PASS,—,,0.0
+W0517,PASS,—,,0.0
+W0518,PASS,—,,0.0
+W0519,PASS,—,,0.0
+W0520,PASS,—,,0.0
+W0521,PASS,—,,0.001
+W0522,FAIL,W-INVALID,"W0522 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0523,FAIL,W-INVALID,"W0523 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0524,FAIL,W-STUDENT,W0524 ==> expected: <1.0E-5> but was: <0.0>,0.001
+W0525,FAIL,W-STUDENT,W0525 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0526,FAIL,W-STUDENT,W0526 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0527,FAIL,W-STUDENT,W0527 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0528,FAIL,W-STUDENT,W0528 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0529,FAIL,W-STUDENT,W0529 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0530,FAIL,W-STUDENT,W0530 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0531,FAIL,W-INVALID,"W0531 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0532,FAIL,W-INVALID,"W0532 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0533,PASS,—,,0.0
+W0534,PASS,—,,0.0
+W0535,PASS,—,,0.0
+W0536,PASS,—,,0.0
+W0537,PASS,—,,0.0
+W0538,PASS,—,,0.0
+W0539,PASS,—,,0.0
+W0540,FAIL,W-INVALID,"W0540 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0541,FAIL,W-INVALID,"W0541 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0542,FAIL,W-STUDENT,W0542 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0543,FAIL,W-STUDENT,W0543 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0544,FAIL,W-STUDENT,W0544 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0545,FAIL,W-STUDENT,W0545 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0546,FAIL,W-STUDENT,W0546 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0547,FAIL,W-STUDENT,W0547 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0548,FAIL,W-STUDENT,W0548 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0549,FAIL,W-INVALID,"W0549 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0550,FAIL,W-INVALID,"W0550 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0551,PASS,—,,0.0
+W0552,PASS,—,,0.0
+W0553,PASS,—,,0.0
+W0554,PASS,—,,0.0
+W0555,PASS,—,,0.0
+W0556,PASS,—,,0.001
+W0557,PASS,—,,0.0
+W0558,FAIL,W-INVALID,"W0558 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0559,FAIL,W-INVALID,"W0559 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0560,FAIL,W-STUDENT,W0560 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0561,FAIL,W-STUDENT,W0561 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0562,FAIL,W-STUDENT,W0562 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0563,FAIL,W-STUDENT,W0563 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0564,FAIL,W-STUDENT,W0564 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0565,FAIL,W-STUDENT,W0565 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0566,FAIL,W-STUDENT,W0566 ==> expected: <1.0E-5> but was: <0.0>,0.001
+W0567,FAIL,W-INVALID,"W0567 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0568,FAIL,W-INVALID,"W0568 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0569,FAIL,W-HIGH,W0569 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0570,FAIL,W-HIGH,W0570 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0571,FAIL,W-HIGH,W0571 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0572,FAIL,W-HIGH,W0572 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0573,FAIL,W-HIGH,W0573 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0574,FAIL,W-HIGH,W0574 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0575,FAIL,W-HIGH,W0575 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0576,FAIL,W-INVALID,"W0576 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0577,FAIL,W-INVALID,"W0577 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0578,FAIL,W-STUDENT,W0578 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0579,FAIL,W-STUDENT,W0579 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0580,FAIL,W-STUDENT,W0580 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0581,FAIL,W-STUDENT,W0581 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0582,FAIL,W-STUDENT,W0582 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0583,FAIL,W-STUDENT,W0583 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0584,FAIL,W-STUDENT,W0584 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0585,FAIL,W-INVALID,"W0585 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0586,FAIL,W-INVALID,"W0586 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0587,FAIL,W-HIGH,W0587 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0588,FAIL,W-HIGH,W0588 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0589,FAIL,W-HIGH,W0589 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0590,FAIL,W-HIGH,W0590 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0591,FAIL,W-HIGH,W0591 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0592,FAIL,W-HIGH,W0592 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0593,FAIL,W-HIGH,W0593 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0594,FAIL,W-INVALID,"W0594 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0595,FAIL,W-INVALID,"W0595 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0596,FAIL,W-STUDENT,W0596 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0597,FAIL,W-STUDENT,W0597 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0598,FAIL,W-STUDENT,W0598 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0599,FAIL,W-STUDENT,W0599 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0600,FAIL,W-STUDENT,W0600 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0601,FAIL,W-STUDENT,W0601 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0602,FAIL,W-STUDENT,W0602 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0603,FAIL,W-INVALID,"W0603 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0604,FAIL,W-INVALID,"W0604 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0605,FAIL,W-HIGH,W0605 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0606,FAIL,W-HIGH,W0606 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0607,FAIL,W-HIGH,W0607 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0608,FAIL,W-HIGH,W0608 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0609,FAIL,W-HIGH,W0609 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0610,FAIL,W-HIGH,W0610 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0611,FAIL,W-HIGH,W0611 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0612,FAIL,W-INVALID,"W0612 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0613,FAIL,W-INVALID,"W0613 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0614,FAIL,W-STUDENT,W0614 ==> expected: <1.0E-5> but was: <0.0>,0.001
+W0615,FAIL,W-STUDENT,W0615 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0616,FAIL,W-STUDENT,W0616 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0617,FAIL,W-STUDENT,W0617 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0618,FAIL,W-STUDENT,W0618 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0619,FAIL,W-STUDENT,W0619 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0620,FAIL,W-STUDENT,W0620 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0621,FAIL,W-INVALID,"W0621 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0622,FAIL,W-INVALID,"W0622 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0623,PASS,—,,0.0
+W0624,PASS,—,,0.0
+W0625,PASS,—,,0.0
+W0626,PASS,—,,0.0
+W0627,PASS,—,,0.0
+W0628,PASS,—,,0.0
+W0629,PASS,—,,0.001
+W0630,FAIL,W-INVALID,"W0630 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0631,FAIL,W-INVALID,"W0631 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0632,FAIL,W-STUDENT,W0632 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0633,FAIL,W-STUDENT,W0633 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0634,FAIL,W-STUDENT,W0634 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0635,FAIL,W-STUDENT,W0635 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0636,FAIL,W-STUDENT,W0636 ==> expected: <0.0> but was: <1.0E-5>,0.0
+W0637,FAIL,W-STUDENT,W0637 ==> expected: <0.0> but was: <1.0E-5>,0.001
+W0638,FAIL,W-STUDENT,W0638 ==> expected: <1.0E-5> but was: <0.0>,0.0
+W0639,FAIL,W-INVALID,"W0639 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0640,FAIL,W-INVALID,"W0640 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0641,PASS,—,,0.0
+W0642,PASS,—,,0.0
+W0643,PASS,—,,0.0
+W0644,PASS,—,,0.0
+W0645,PASS,—,,0.0
+W0646,PASS,—,,0.0
+W0647,PASS,—,,0.0
+W0648,FAIL,W-INVALID,"W0648 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0649,FAIL,W-INVALID,"W0649 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0650,FAIL,W-INVALID,"W0650 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0651,FAIL,W-INVALID,"W0651 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0652,FAIL,W-INVALID,"W0652 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0653,FAIL,W-INVALID,"W0653 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0654,FAIL,W-INVALID,"W0654 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0655,FAIL,W-INVALID,"W0655 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0656,FAIL,W-INVALID,"W0656 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0657,FAIL,W-INVALID,"W0657 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0658,FAIL,W-INVALID,"W0658 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0659,FAIL,W-INVALID,"W0659 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0660,FAIL,W-INVALID,"W0660 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0661,FAIL,W-INVALID,"W0661 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0662,FAIL,W-INVALID,"W0662 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0663,FAIL,W-INVALID,"W0663 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0664,FAIL,W-INVALID,"W0664 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0665,FAIL,W-INVALID,"W0665 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0666,FAIL,W-INVALID,"W0666 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0667,FAIL,W-INVALID,"W0667 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0668,FAIL,W-STUDENT,W0668 ==> expected: <0.5> but was: <0.0>,0.0
+W0669,FAIL,W-STUDENT,W0669 ==> expected: <0.0> but was: <0.5>,0.0
+W0670,FAIL,W-STUDENT,W0670 ==> expected: <0.0> but was: <0.5>,0.0
+W0671,FAIL,W-STUDENT,W0671 ==> expected: <0.0> but was: <0.5>,0.001
+W0672,FAIL,W-STUDENT,W0672 ==> expected: <0.0> but was: <0.5>,0.0
+W0673,FAIL,W-STUDENT,W0673 ==> expected: <0.0> but was: <0.5>,0.0
+W0674,FAIL,W-STUDENT,W0674 ==> expected: <0.5> but was: <0.0>,0.001
+W0675,FAIL,W-INVALID,"W0675 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0676,FAIL,W-INVALID,"W0676 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0677,FAIL,W-LOW,W0677 ==> expected: <1.5> but was: <1.0>,0.0
+W0678,FAIL,W-LOW,W0678 ==> expected: <1.5> but was: <1.0>,0.0
+W0679,FAIL,W-LOW,W0679 ==> expected: <1.5> but was: <1.0>,0.0
+W0680,FAIL,W-LOW,W0680 ==> expected: <1.5> but was: <1.0>,0.0
+W0681,FAIL,W-LOW,W0681 ==> expected: <1.5> but was: <1.0>,0.0
+W0682,FAIL,W-LOW,W0682 ==> expected: <1.5> but was: <1.0>,0.0
+W0683,FAIL,W-LOW,W0683 ==> expected: <1.5> but was: <1.0>,0.0
+W0684,FAIL,W-INVALID,"W0684 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0685,FAIL,W-INVALID,"W0685 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0686,FAIL,W-STUDENT,W0686 ==> expected: <0.5> but was: <0.0>,0.0
+W0687,FAIL,W-STUDENT,W0687 ==> expected: <0.0> but was: <0.5>,0.0
+W0688,FAIL,W-STUDENT,W0688 ==> expected: <0.0> but was: <0.5>,0.0
+W0689,FAIL,W-STUDENT,W0689 ==> expected: <0.0> but was: <0.5>,0.001
+W0690,FAIL,W-STUDENT,W0690 ==> expected: <0.0> but was: <0.5>,0.0
+W0691,FAIL,W-STUDENT,W0691 ==> expected: <0.0> but was: <0.5>,0.0
+W0692,FAIL,W-STUDENT,W0692 ==> expected: <0.5> but was: <0.0>,0.0
+W0693,FAIL,W-INVALID,"W0693 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0694,FAIL,W-INVALID,"W0694 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0695,FAIL,W-LOW,W0695 ==> expected: <1.5> but was: <1.0>,0.0
+W0696,FAIL,W-LOW,W0696 ==> expected: <1.5> but was: <1.0>,0.0
+W0697,FAIL,W-LOW,W0697 ==> expected: <1.5> but was: <1.0>,0.001
+W0698,FAIL,W-LOW,W0698 ==> expected: <1.5> but was: <1.0>,0.0
+W0699,FAIL,W-LOW,W0699 ==> expected: <1.5> but was: <1.0>,0.0
+W0700,FAIL,W-LOW,W0700 ==> expected: <1.5> but was: <1.0>,0.0
+W0701,FAIL,W-LOW,W0701 ==> expected: <1.5> but was: <1.0>,0.0
+W0702,FAIL,W-INVALID,"W0702 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0703,FAIL,W-INVALID,"W0703 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0704,FAIL,W-STUDENT,W0704 ==> expected: <0.5> but was: <0.0>,0.001
+W0705,FAIL,W-STUDENT,W0705 ==> expected: <0.0> but was: <0.5>,0.0
+W0706,FAIL,W-STUDENT,W0706 ==> expected: <0.0> but was: <0.5>,0.0
+W0707,FAIL,W-STUDENT,W0707 ==> expected: <0.0> but was: <0.5>,0.0
+W0708,FAIL,W-STUDENT,W0708 ==> expected: <0.0> but was: <0.5>,0.0
+W0709,FAIL,W-STUDENT,W0709 ==> expected: <0.0> but was: <0.5>,0.0
+W0710,FAIL,W-STUDENT,W0710 ==> expected: <0.5> but was: <0.0>,0.0
+W0711,FAIL,W-INVALID,"W0711 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0712,FAIL,W-INVALID,"W0712 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0713,FAIL,W-LOW,W0713 ==> expected: <1.5> but was: <1.0>,0.0
+W0714,FAIL,W-LOW,W0714 ==> expected: <1.5> but was: <1.0>,0.0
+W0715,FAIL,W-LOW,W0715 ==> expected: <1.5> but was: <1.0>,0.0
+W0716,FAIL,W-LOW,W0716 ==> expected: <1.5> but was: <1.0>,0.0
+W0717,FAIL,W-LOW,W0717 ==> expected: <1.5> but was: <1.0>,0.0
+W0718,FAIL,W-LOW,W0718 ==> expected: <1.5> but was: <1.0>,0.0
+W0719,FAIL,W-LOW,W0719 ==> expected: <1.5> but was: <1.0>,0.0
+W0720,FAIL,W-INVALID,"W0720 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0721,FAIL,W-INVALID,"W0721 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0722,FAIL,W-STUDENT,W0722 ==> expected: <0.5> but was: <0.0>,0.0
+W0723,FAIL,W-STUDENT,W0723 ==> expected: <0.0> but was: <0.5>,0.0
+W0724,FAIL,W-STUDENT,W0724 ==> expected: <0.0> but was: <0.5>,0.0
+W0725,FAIL,W-STUDENT,W0725 ==> expected: <0.0> but was: <0.5>,0.0
+W0726,FAIL,W-STUDENT,W0726 ==> expected: <0.0> but was: <0.5>,0.0
+W0727,FAIL,W-STUDENT,W0727 ==> expected: <0.0> but was: <0.5>,0.0
+W0728,FAIL,W-STUDENT,W0728 ==> expected: <0.5> but was: <0.0>,0.0
+W0729,FAIL,W-INVALID,"W0729 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0730,FAIL,W-INVALID,"W0730 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0731,PASS,—,,0.0
+W0732,PASS,—,,0.0
+W0733,PASS,—,,0.0
+W0734,PASS,—,,0.0
+W0735,PASS,—,,0.0
+W0736,PASS,—,,0.0
+W0737,PASS,—,,0.0
+W0738,FAIL,W-INVALID,"W0738 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0739,FAIL,W-INVALID,"W0739 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0740,FAIL,W-STUDENT,W0740 ==> expected: <0.5> but was: <0.0>,0.0
+W0741,FAIL,W-STUDENT,W0741 ==> expected: <0.0> but was: <0.5>,0.0
+W0742,FAIL,W-STUDENT,W0742 ==> expected: <0.0> but was: <0.5>,0.0
+W0743,FAIL,W-STUDENT,W0743 ==> expected: <0.0> but was: <0.5>,0.001
+W0744,FAIL,W-STUDENT,W0744 ==> expected: <0.0> but was: <0.5>,0.0
+W0745,FAIL,W-STUDENT,W0745 ==> expected: <0.0> but was: <0.5>,0.0
+W0746,FAIL,W-STUDENT,W0746 ==> expected: <0.5> but was: <0.0>,0.0
+W0747,FAIL,W-INVALID,"W0747 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0748,FAIL,W-INVALID,"W0748 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0749,PASS,—,,0.0
+W0750,PASS,—,,0.0
+W0751,PASS,—,,0.0
+W0752,PASS,—,,0.0
+W0753,PASS,—,,0.0
+W0754,PASS,—,,0.0
+W0755,PASS,—,,0.0
+W0756,FAIL,W-INVALID,"W0756 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0757,FAIL,W-INVALID,"W0757 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0758,FAIL,W-STUDENT,W0758 ==> expected: <0.5> but was: <0.0>,0.0
+W0759,FAIL,W-STUDENT,W0759 ==> expected: <0.0> but was: <0.5>,0.0
+W0760,FAIL,W-STUDENT,W0760 ==> expected: <0.0> but was: <0.5>,0.0
+W0761,FAIL,W-STUDENT,W0761 ==> expected: <0.0> but was: <0.5>,0.0
+W0762,FAIL,W-STUDENT,W0762 ==> expected: <0.0> but was: <0.5>,0.0
+W0763,FAIL,W-STUDENT,W0763 ==> expected: <0.0> but was: <0.5>,0.0
+W0764,FAIL,W-STUDENT,W0764 ==> expected: <0.5> but was: <0.0>,0.0
+W0765,FAIL,W-INVALID,"W0765 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0766,FAIL,W-INVALID,"W0766 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0767,PASS,—,,0.001
+W0768,PASS,—,,0.0
+W0769,PASS,—,,0.0
+W0770,PASS,—,,0.0
+W0771,PASS,—,,0.0
+W0772,PASS,—,,0.0
+W0773,PASS,—,,0.0
+W0774,FAIL,W-INVALID,"W0774 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0775,FAIL,W-INVALID,"W0775 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0776,FAIL,W-STUDENT,W0776 ==> expected: <0.5> but was: <0.0>,0.001
+W0777,FAIL,W-STUDENT,W0777 ==> expected: <0.0> but was: <0.5>,0.0
+W0778,FAIL,W-STUDENT,W0778 ==> expected: <0.0> but was: <0.5>,0.0
+W0779,FAIL,W-STUDENT,W0779 ==> expected: <0.0> but was: <0.5>,0.0
+W0780,FAIL,W-STUDENT,W0780 ==> expected: <0.0> but was: <0.5>,0.001
+W0781,FAIL,W-STUDENT,W0781 ==> expected: <0.0> but was: <0.5>,0.0
+W0782,FAIL,W-STUDENT,W0782 ==> expected: <0.5> but was: <0.0>,0.0
+W0783,FAIL,W-INVALID,"W0783 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0784,FAIL,W-INVALID,"W0784 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0785,FAIL,W-HIGH,W0785 ==> expected: <0.0> but was: <0.5>,0.0
+W0786,FAIL,W-HIGH,W0786 ==> expected: <0.0> but was: <0.5>,0.0
+W0787,FAIL,W-HIGH,W0787 ==> expected: <0.0> but was: <0.5>,0.0
+W0788,FAIL,W-HIGH,W0788 ==> expected: <0.0> but was: <0.5>,0.0
+W0789,FAIL,W-HIGH,W0789 ==> expected: <0.0> but was: <0.5>,0.0
+W0790,FAIL,W-HIGH,W0790 ==> expected: <0.0> but was: <0.5>,0.0
+W0791,FAIL,W-HIGH,W0791 ==> expected: <0.0> but was: <0.5>,0.0
+W0792,FAIL,W-INVALID,"W0792 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0793,FAIL,W-INVALID,"W0793 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0794,FAIL,W-STUDENT,W0794 ==> expected: <0.5> but was: <0.0>,0.001
+W0795,FAIL,W-STUDENT,W0795 ==> expected: <0.0> but was: <0.5>,0.0
+W0796,FAIL,W-STUDENT,W0796 ==> expected: <0.0> but was: <0.5>,0.0
+W0797,FAIL,W-STUDENT,W0797 ==> expected: <0.0> but was: <0.5>,0.0
+W0798,FAIL,W-STUDENT,W0798 ==> expected: <0.0> but was: <0.5>,0.0
+W0799,FAIL,W-STUDENT,W0799 ==> expected: <0.0> but was: <0.5>,0.0
+W0800,FAIL,W-STUDENT,W0800 ==> expected: <0.5> but was: <0.0>,0.0
+W0801,FAIL,W-INVALID,"W0801 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0802,FAIL,W-INVALID,"W0802 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0803,FAIL,W-HIGH,W0803 ==> expected: <0.0> but was: <0.5>,0.0
+W0804,FAIL,W-HIGH,W0804 ==> expected: <0.0> but was: <0.5>,0.0
+W0805,FAIL,W-HIGH,W0805 ==> expected: <0.0> but was: <0.5>,0.001
+W0806,FAIL,W-HIGH,W0806 ==> expected: <0.0> but was: <0.5>,0.0
+W0807,FAIL,W-HIGH,W0807 ==> expected: <0.0> but was: <0.5>,0.0
+W0808,FAIL,W-HIGH,W0808 ==> expected: <0.0> but was: <0.5>,0.0
+W0809,FAIL,W-HIGH,W0809 ==> expected: <0.0> but was: <0.5>,0.0
+W0810,FAIL,W-INVALID,"W0810 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0811,FAIL,W-INVALID,"W0811 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0812,FAIL,W-STUDENT,W0812 ==> expected: <0.5> but was: <0.0>,0.0
+W0813,FAIL,W-STUDENT,W0813 ==> expected: <0.0> but was: <0.5>,0.0
+W0814,FAIL,W-STUDENT,W0814 ==> expected: <0.0> but was: <0.5>,0.0
+W0815,FAIL,W-STUDENT,W0815 ==> expected: <0.0> but was: <0.5>,0.0
+W0816,FAIL,W-STUDENT,W0816 ==> expected: <0.0> but was: <0.5>,0.0
+W0817,FAIL,W-STUDENT,W0817 ==> expected: <0.0> but was: <0.5>,0.0
+W0818,FAIL,W-STUDENT,W0818 ==> expected: <0.5> but was: <0.0>,0.0
+W0819,FAIL,W-INVALID,"W0819 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0820,FAIL,W-INVALID,"W0820 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0821,FAIL,W-HIGH,W0821 ==> expected: <0.0> but was: <0.5>,0.001
+W0822,FAIL,W-HIGH,W0822 ==> expected: <0.0> but was: <0.5>,0.0
+W0823,FAIL,W-HIGH,W0823 ==> expected: <0.0> but was: <0.5>,0.0
+W0824,FAIL,W-HIGH,W0824 ==> expected: <0.0> but was: <0.5>,0.0
+W0825,FAIL,W-HIGH,W0825 ==> expected: <0.0> but was: <0.5>,0.001
+W0826,FAIL,W-HIGH,W0826 ==> expected: <0.0> but was: <0.5>,0.0
+W0827,FAIL,W-HIGH,W0827 ==> expected: <0.0> but was: <0.5>,0.0
+W0828,FAIL,W-INVALID,"W0828 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0829,FAIL,W-INVALID,"W0829 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0830,FAIL,W-STUDENT,W0830 ==> expected: <0.5> but was: <0.0>,0.0
+W0831,FAIL,W-STUDENT,W0831 ==> expected: <0.0> but was: <0.5>,0.0
+W0832,FAIL,W-STUDENT,W0832 ==> expected: <0.0> but was: <0.5>,0.0
+W0833,FAIL,W-STUDENT,W0833 ==> expected: <0.0> but was: <0.5>,0.0
+W0834,FAIL,W-STUDENT,W0834 ==> expected: <0.0> but was: <0.5>,0.0
+W0835,FAIL,W-STUDENT,W0835 ==> expected: <0.0> but was: <0.5>,0.0
+W0836,FAIL,W-STUDENT,W0836 ==> expected: <0.5> but was: <0.0>,0.0
+W0837,FAIL,W-INVALID,"W0837 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0838,FAIL,W-INVALID,"W0838 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0839,PASS,—,,0.0
+W0840,PASS,—,,0.0
+W0841,PASS,—,,0.0
+W0842,PASS,—,,0.0
+W0843,PASS,—,,0.0
+W0844,PASS,—,,0.001
+W0845,PASS,—,,0.0
+W0846,FAIL,W-INVALID,"W0846 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0847,FAIL,W-INVALID,"W0847 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0848,FAIL,W-STUDENT,W0848 ==> expected: <0.5> but was: <0.0>,0.0
+W0849,FAIL,W-STUDENT,W0849 ==> expected: <0.0> but was: <0.5>,0.001
+W0850,FAIL,W-STUDENT,W0850 ==> expected: <0.0> but was: <0.5>,0.0
+W0851,FAIL,W-STUDENT,W0851 ==> expected: <0.0> but was: <0.5>,0.0
+W0852,FAIL,W-STUDENT,W0852 ==> expected: <0.0> but was: <0.5>,0.0
+W0853,FAIL,W-STUDENT,W0853 ==> expected: <0.0> but was: <0.5>,0.0
+W0854,FAIL,W-STUDENT,W0854 ==> expected: <0.5> but was: <0.0>,0.0
+W0855,FAIL,W-INVALID,"W0855 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0856,FAIL,W-INVALID,"W0856 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0857,PASS,—,,0.0
+W0858,PASS,—,,0.0
+W0859,PASS,—,,0.0
+W0860,PASS,—,,0.0
+W0861,PASS,—,,0.0
+W0862,PASS,—,,0.0
+W0863,PASS,—,,0.0
+W0864,FAIL,W-INVALID,"W0864 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0865,FAIL,W-INVALID,"W0865 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0866,FAIL,W-INVALID,"W0866 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0867,FAIL,W-INVALID,"W0867 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0868,FAIL,W-INVALID,"W0868 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0869,FAIL,W-INVALID,"W0869 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0870,FAIL,W-INVALID,"W0870 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0871,FAIL,W-INVALID,"W0871 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0872,FAIL,W-INVALID,"W0872 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0873,FAIL,W-INVALID,"W0873 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0874,FAIL,W-INVALID,"W0874 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0875,FAIL,W-INVALID,"W0875 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0876,FAIL,W-INVALID,"W0876 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0877,FAIL,W-INVALID,"W0877 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0878,FAIL,W-INVALID,"W0878 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0879,FAIL,W-INVALID,"W0879 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0880,FAIL,W-INVALID,"W0880 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0881,FAIL,W-INVALID,"W0881 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0882,FAIL,W-INVALID,"W0882 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0883,FAIL,W-INVALID,"W0883 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0884,FAIL,W-STUDENT,W0884 ==> expected: <0.99999> but was: <0.0>,0.001
+W0885,FAIL,W-STUDENT,W0885 ==> expected: <0.0> but was: <0.99999>,0.0
+W0886,FAIL,W-STUDENT,W0886 ==> expected: <0.0> but was: <0.99999>,0.0
+W0887,FAIL,W-STUDENT,W0887 ==> expected: <0.0> but was: <0.99999>,0.0
+W0888,FAIL,W-STUDENT,W0888 ==> expected: <0.0> but was: <0.99999>,0.0
+W0889,FAIL,W-STUDENT,W0889 ==> expected: <0.0> but was: <0.99999>,0.0
+W0890,FAIL,W-STUDENT,W0890 ==> expected: <0.99999> but was: <0.0>,0.0
+W0891,FAIL,W-INVALID,"W0891 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0892,FAIL,W-INVALID,"W0892 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0893,FAIL,W-LOW,W0893 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0894,FAIL,W-LOW,W0894 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0895,FAIL,W-LOW,W0895 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0896,FAIL,W-LOW,W0896 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0897,FAIL,W-LOW,W0897 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0898,FAIL,W-LOW,W0898 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0899,FAIL,W-LOW,W0899 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0900,FAIL,W-INVALID,"W0900 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0901,FAIL,W-INVALID,"W0901 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0902,FAIL,W-STUDENT,W0902 ==> expected: <0.99999> but was: <0.0>,0.0
+W0903,FAIL,W-STUDENT,W0903 ==> expected: <0.0> but was: <0.99999>,0.0
+W0904,FAIL,W-STUDENT,W0904 ==> expected: <0.0> but was: <0.99999>,0.0
+W0905,FAIL,W-STUDENT,W0905 ==> expected: <0.0> but was: <0.99999>,0.0
+W0906,FAIL,W-STUDENT,W0906 ==> expected: <0.0> but was: <0.99999>,0.0
+W0907,FAIL,W-STUDENT,W0907 ==> expected: <0.0> but was: <0.99999>,0.0
+W0908,FAIL,W-STUDENT,W0908 ==> expected: <0.99999> but was: <0.0>,0.0
+W0909,FAIL,W-INVALID,"W0909 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W0910,FAIL,W-INVALID,"W0910 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0911,FAIL,W-LOW,W0911 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0912,FAIL,W-LOW,W0912 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0913,FAIL,W-LOW,W0913 ==> expected: <2.99997> but was: <1.99998>,0.001
+W0914,FAIL,W-LOW,W0914 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0915,FAIL,W-LOW,W0915 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0916,FAIL,W-LOW,W0916 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0917,FAIL,W-LOW,W0917 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0918,FAIL,W-INVALID,"W0918 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0919,FAIL,W-INVALID,"W0919 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0920,FAIL,W-STUDENT,W0920 ==> expected: <0.99999> but was: <0.0>,0.0
+W0921,FAIL,W-STUDENT,W0921 ==> expected: <0.0> but was: <0.99999>,0.0
+W0922,FAIL,W-STUDENT,W0922 ==> expected: <0.0> but was: <0.99999>,0.0
+W0923,FAIL,W-STUDENT,W0923 ==> expected: <0.0> but was: <0.99999>,0.0
+W0924,FAIL,W-STUDENT,W0924 ==> expected: <0.0> but was: <0.99999>,0.0
+W0925,FAIL,W-STUDENT,W0925 ==> expected: <0.0> but was: <0.99999>,0.0
+W0926,FAIL,W-STUDENT,W0926 ==> expected: <0.99999> but was: <0.0>,0.0
+W0927,FAIL,W-INVALID,"W0927 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0928,FAIL,W-INVALID,"W0928 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0929,FAIL,W-LOW,W0929 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0930,FAIL,W-LOW,W0930 ==> expected: <2.99997> but was: <1.99998>,0.001
+W0931,FAIL,W-LOW,W0931 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0932,FAIL,W-LOW,W0932 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0933,FAIL,W-LOW,W0933 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0934,FAIL,W-LOW,W0934 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0935,FAIL,W-LOW,W0935 ==> expected: <2.99997> but was: <1.99998>,0.0
+W0936,FAIL,W-INVALID,"W0936 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0937,FAIL,W-INVALID,"W0937 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0938,FAIL,W-STUDENT,W0938 ==> expected: <0.99999> but was: <0.0>,0.0
+W0939,FAIL,W-STUDENT,W0939 ==> expected: <0.0> but was: <0.99999>,0.001
+W0940,FAIL,W-STUDENT,W0940 ==> expected: <0.0> but was: <0.99999>,0.0
+W0941,FAIL,W-STUDENT,W0941 ==> expected: <0.0> but was: <0.99999>,0.0
+W0942,FAIL,W-STUDENT,W0942 ==> expected: <0.0> but was: <0.99999>,0.0
+W0943,FAIL,W-STUDENT,W0943 ==> expected: <0.0> but was: <0.99999>,0.0
+W0944,FAIL,W-STUDENT,W0944 ==> expected: <0.99999> but was: <0.0>,0.0
+W0945,FAIL,W-INVALID,"W0945 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0946,FAIL,W-INVALID,"W0946 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0947,PASS,—,,0.0
+W0948,PASS,—,,0.001
+W0949,PASS,—,,0.0
+W0950,PASS,—,,0.0
+W0951,PASS,—,,0.0
+W0952,PASS,—,,0.0
+W0953,PASS,—,,0.0
+W0954,FAIL,W-INVALID,"W0954 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0955,FAIL,W-INVALID,"W0955 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0956,FAIL,W-STUDENT,W0956 ==> expected: <0.99999> but was: <0.0>,0.0
+W0957,FAIL,W-STUDENT,W0957 ==> expected: <0.0> but was: <0.99999>,0.0
+W0958,FAIL,W-STUDENT,W0958 ==> expected: <0.0> but was: <0.99999>,0.0
+W0959,FAIL,W-STUDENT,W0959 ==> expected: <0.0> but was: <0.99999>,0.0
+W0960,FAIL,W-STUDENT,W0960 ==> expected: <0.0> but was: <0.99999>,0.0
+W0961,FAIL,W-STUDENT,W0961 ==> expected: <0.0> but was: <0.99999>,0.0
+W0962,FAIL,W-STUDENT,W0962 ==> expected: <0.99999> but was: <0.0>,0.0
+W0963,FAIL,W-INVALID,"W0963 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0964,FAIL,W-INVALID,"W0964 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0965,PASS,—,,0.0
+W0966,PASS,—,,0.0
+W0967,PASS,—,,0.0
+W0968,PASS,—,,0.0
+W0969,PASS,—,,0.0
+W0970,PASS,—,,0.0
+W0971,PASS,—,,0.0
+W0972,FAIL,W-INVALID,"W0972 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0973,FAIL,W-INVALID,"W0973 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0974,FAIL,W-STUDENT,W0974 ==> expected: <0.99999> but was: <0.0>,0.0
+W0975,FAIL,W-STUDENT,W0975 ==> expected: <0.0> but was: <0.99999>,0.0
+W0976,FAIL,W-STUDENT,W0976 ==> expected: <0.0> but was: <0.99999>,0.0
+W0977,FAIL,W-STUDENT,W0977 ==> expected: <0.0> but was: <0.99999>,0.0
+W0978,FAIL,W-STUDENT,W0978 ==> expected: <0.0> but was: <0.99999>,0.0
+W0979,FAIL,W-STUDENT,W0979 ==> expected: <0.0> but was: <0.99999>,0.0
+W0980,FAIL,W-STUDENT,W0980 ==> expected: <0.99999> but was: <0.0>,0.001
+W0981,FAIL,W-INVALID,"W0981 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0982,FAIL,W-INVALID,"W0982 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0983,PASS,—,,0.0
+W0984,PASS,—,,0.0
+W0985,PASS,—,,0.001
+W0986,PASS,—,,0.0
+W0987,PASS,—,,0.0
+W0988,PASS,—,,0.0
+W0989,PASS,—,,0.0
+W0990,FAIL,W-INVALID,"W0990 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0991,FAIL,W-INVALID,"W0991 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W0992,FAIL,W-STUDENT,W0992 ==> expected: <0.99999> but was: <0.0>,0.0
+W0993,FAIL,W-STUDENT,W0993 ==> expected: <0.0> but was: <0.99999>,0.0
+W0994,FAIL,W-STUDENT,W0994 ==> expected: <0.0> but was: <0.99999>,0.0
+W0995,FAIL,W-STUDENT,W0995 ==> expected: <0.0> but was: <0.99999>,0.0
+W0996,FAIL,W-STUDENT,W0996 ==> expected: <0.0> but was: <0.99999>,0.0
+W0997,FAIL,W-STUDENT,W0997 ==> expected: <0.0> but was: <0.99999>,0.0
+W0998,FAIL,W-STUDENT,W0998 ==> expected: <0.99999> but was: <0.0>,0.0
+W0999,FAIL,W-INVALID,"W0999 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1000,FAIL,W-INVALID,"W1000 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1001,FAIL,W-HIGH,W1001 ==> expected: <0.0> but was: <0.99999>,0.001
+W1002,FAIL,W-HIGH,W1002 ==> expected: <0.0> but was: <0.99999>,0.0
+W1003,FAIL,W-HIGH,W1003 ==> expected: <0.0> but was: <0.99999>,0.0
+W1004,FAIL,W-HIGH,W1004 ==> expected: <0.0> but was: <0.99999>,0.0
+W1005,FAIL,W-HIGH,W1005 ==> expected: <0.0> but was: <0.99999>,0.0
+W1006,FAIL,W-HIGH,W1006 ==> expected: <0.0> but was: <0.99999>,0.0
+W1007,FAIL,W-HIGH,W1007 ==> expected: <0.0> but was: <0.99999>,0.0
+W1008,FAIL,W-INVALID,"W1008 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1009,FAIL,W-INVALID,"W1009 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1010,FAIL,W-STUDENT,W1010 ==> expected: <0.99999> but was: <0.0>,0.0
+W1011,FAIL,W-STUDENT,W1011 ==> expected: <0.0> but was: <0.99999>,0.0
+W1012,FAIL,W-STUDENT,W1012 ==> expected: <0.0> but was: <0.99999>,0.0
+W1013,FAIL,W-STUDENT,W1013 ==> expected: <0.0> but was: <0.99999>,0.001
+W1014,FAIL,W-STUDENT,W1014 ==> expected: <0.0> but was: <0.99999>,0.0
+W1015,FAIL,W-STUDENT,W1015 ==> expected: <0.0> but was: <0.99999>,0.0
+W1016,FAIL,W-STUDENT,W1016 ==> expected: <0.99999> but was: <0.0>,0.0
+W1017,FAIL,W-INVALID,"W1017 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1018,FAIL,W-INVALID,"W1018 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1019,FAIL,W-HIGH,W1019 ==> expected: <0.0> but was: <0.99999>,0.0
+W1020,FAIL,W-HIGH,W1020 ==> expected: <0.0> but was: <0.99999>,0.001
+W1021,FAIL,W-HIGH,W1021 ==> expected: <0.0> but was: <0.99999>,0.0
+W1022,FAIL,W-HIGH,W1022 ==> expected: <0.0> but was: <0.99999>,0.0
+W1023,FAIL,W-HIGH,W1023 ==> expected: <0.0> but was: <0.99999>,0.0
+W1024,FAIL,W-HIGH,W1024 ==> expected: <0.0> but was: <0.99999>,0.0
+W1025,FAIL,W-HIGH,W1025 ==> expected: <0.0> but was: <0.99999>,0.0
+W1026,FAIL,W-INVALID,"W1026 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1027,FAIL,W-INVALID,"W1027 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1028,FAIL,W-STUDENT,W1028 ==> expected: <0.99999> but was: <0.0>,0.0
+W1029,FAIL,W-STUDENT,W1029 ==> expected: <0.0> but was: <0.99999>,0.0
+W1030,FAIL,W-STUDENT,W1030 ==> expected: <0.0> but was: <0.99999>,0.0
+W1031,FAIL,W-STUDENT,W1031 ==> expected: <0.0> but was: <0.99999>,0.0
+W1032,FAIL,W-STUDENT,W1032 ==> expected: <0.0> but was: <0.99999>,0.0
+W1033,FAIL,W-STUDENT,W1033 ==> expected: <0.0> but was: <0.99999>,0.0
+W1034,FAIL,W-STUDENT,W1034 ==> expected: <0.99999> but was: <0.0>,0.0
+W1035,FAIL,W-INVALID,"W1035 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1036,FAIL,W-INVALID,"W1036 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1037,FAIL,W-HIGH,W1037 ==> expected: <0.0> but was: <0.99999>,0.0
+W1038,FAIL,W-HIGH,W1038 ==> expected: <0.0> but was: <0.99999>,0.0
+W1039,FAIL,W-HIGH,W1039 ==> expected: <0.0> but was: <0.99999>,0.0
+W1040,FAIL,W-HIGH,W1040 ==> expected: <0.0> but was: <0.99999>,0.001
+W1041,FAIL,W-HIGH,W1041 ==> expected: <0.0> but was: <0.99999>,0.0
+W1042,FAIL,W-HIGH,W1042 ==> expected: <0.0> but was: <0.99999>,0.0
+W1043,FAIL,W-HIGH,W1043 ==> expected: <0.0> but was: <0.99999>,0.0
+W1044,FAIL,W-INVALID,"W1044 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1045,FAIL,W-INVALID,"W1045 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1046,FAIL,W-STUDENT,W1046 ==> expected: <0.99999> but was: <0.0>,0.0
+W1047,FAIL,W-STUDENT,W1047 ==> expected: <0.0> but was: <0.99999>,0.0
+W1048,FAIL,W-STUDENT,W1048 ==> expected: <0.0> but was: <0.99999>,0.0
+W1049,FAIL,W-STUDENT,W1049 ==> expected: <0.0> but was: <0.99999>,0.0
+W1050,FAIL,W-STUDENT,W1050 ==> expected: <0.0> but was: <0.99999>,0.0
+W1051,FAIL,W-STUDENT,W1051 ==> expected: <0.0> but was: <0.99999>,0.0
+W1052,FAIL,W-STUDENT,W1052 ==> expected: <0.99999> but was: <0.0>,0.0
+W1053,FAIL,W-INVALID,"W1053 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1054,FAIL,W-INVALID,"W1054 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1055,PASS,—,,0.0
+W1056,PASS,—,,0.001
+W1057,PASS,—,,0.0
+W1058,PASS,—,,0.0
+W1059,PASS,—,,0.0
+W1060,PASS,—,,0.0
+W1061,PASS,—,,0.0
+W1062,FAIL,W-INVALID,"W1062 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1063,FAIL,W-INVALID,"W1063 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1064,FAIL,W-STUDENT,W1064 ==> expected: <0.99999> but was: <0.0>,0.0
+W1065,FAIL,W-STUDENT,W1065 ==> expected: <0.0> but was: <0.99999>,0.0
+W1066,FAIL,W-STUDENT,W1066 ==> expected: <0.0> but was: <0.99999>,0.0
+W1067,FAIL,W-STUDENT,W1067 ==> expected: <0.0> but was: <0.99999>,0.0
+W1068,FAIL,W-STUDENT,W1068 ==> expected: <0.0> but was: <0.99999>,0.0
+W1069,FAIL,W-STUDENT,W1069 ==> expected: <0.0> but was: <0.99999>,0.0
+W1070,FAIL,W-STUDENT,W1070 ==> expected: <0.99999> but was: <0.0>,0.0
+W1071,FAIL,W-INVALID,"W1071 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1072,FAIL,W-INVALID,"W1072 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1073,PASS,—,,0.0
+W1074,PASS,—,,0.0
+W1075,PASS,—,,0.0
+W1076,PASS,—,,0.0
+W1077,PASS,—,,0.0
+W1078,PASS,—,,0.0
+W1079,PASS,—,,0.0
+W1080,FAIL,W-INVALID,"W1080 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W1081,FAIL,W-INVALID,"W1081 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1082,FAIL,W-INVALID,"W1082 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1083,FAIL,W-INVALID,"W1083 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1084,FAIL,W-INVALID,"W1084 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1085,FAIL,W-INVALID,"W1085 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1086,FAIL,W-INVALID,"W1086 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1087,FAIL,W-INVALID,"W1087 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1088,FAIL,W-INVALID,"W1088 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1089,FAIL,W-INVALID,"W1089 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1090,FAIL,W-INVALID,"W1090 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1091,FAIL,W-INVALID,"W1091 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1092,FAIL,W-INVALID,"W1092 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1093,FAIL,W-INVALID,"W1093 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1094,FAIL,W-INVALID,"W1094 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W1095,FAIL,W-INVALID,"W1095 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1096,FAIL,W-INVALID,"W1096 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1097,FAIL,W-INVALID,"W1097 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1098,FAIL,W-INVALID,"W1098 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1099,FAIL,W-INVALID,"W1099 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1100,FAIL,W-STUDENT,W1100 ==> expected: <1.0> but was: <0.0>,0.0
+W1101,FAIL,W-STUDENT,W1101 ==> expected: <0.0> but was: <1.0>,0.0
+W1102,FAIL,W-STUDENT,W1102 ==> expected: <0.0> but was: <1.0>,0.0
+W1103,FAIL,W-STUDENT,W1103 ==> expected: <0.0> but was: <1.0>,0.0
+W1104,FAIL,W-STUDENT,W1104 ==> expected: <0.0> but was: <1.0>,0.0
+W1105,FAIL,W-STUDENT,W1105 ==> expected: <0.0> but was: <1.0>,0.0
+W1106,FAIL,W-STUDENT,W1106 ==> expected: <1.0> but was: <0.0>,0.0
+W1107,FAIL,W-INVALID,"W1107 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1108,FAIL,W-INVALID,"W1108 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1109,FAIL,W-LOW,W1109 ==> expected: <3.0> but was: <2.0>,0.001
+W1110,FAIL,W-LOW,W1110 ==> expected: <3.0> but was: <2.0>,0.0
+W1111,FAIL,W-LOW,W1111 ==> expected: <3.0> but was: <2.0>,0.0
+W1112,FAIL,W-LOW,W1112 ==> expected: <3.0> but was: <2.0>,0.0
+W1113,FAIL,W-LOW,W1113 ==> expected: <3.0> but was: <2.0>,0.0
+W1114,FAIL,W-LOW,W1114 ==> expected: <3.0> but was: <2.0>,0.0
+W1115,FAIL,W-LOW,W1115 ==> expected: <3.0> but was: <2.0>,0.0
+W1116,FAIL,W-INVALID,"W1116 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1117,FAIL,W-INVALID,"W1117 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1118,FAIL,W-STUDENT,W1118 ==> expected: <1.0> but was: <0.0>,0.0
+W1119,FAIL,W-STUDENT,W1119 ==> expected: <0.0> but was: <1.0>,0.0
+W1120,FAIL,W-STUDENT,W1120 ==> expected: <0.0> but was: <1.0>,0.0
+W1121,FAIL,W-STUDENT,W1121 ==> expected: <0.0> but was: <1.0>,0.0
+W1122,FAIL,W-STUDENT,W1122 ==> expected: <0.0> but was: <1.0>,0.0
+W1123,FAIL,W-STUDENT,W1123 ==> expected: <0.0> but was: <1.0>,0.0
+W1124,FAIL,W-STUDENT,W1124 ==> expected: <1.0> but was: <0.0>,0.001
+W1125,FAIL,W-INVALID,"W1125 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1126,FAIL,W-INVALID,"W1126 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1127,FAIL,W-LOW,W1127 ==> expected: <3.0> but was: <2.0>,0.0
+W1128,FAIL,W-LOW,W1128 ==> expected: <3.0> but was: <2.0>,0.0
+W1129,FAIL,W-LOW,W1129 ==> expected: <3.0> but was: <2.0>,0.001
+W1130,FAIL,W-LOW,W1130 ==> expected: <3.0> but was: <2.0>,0.0
+W1131,FAIL,W-LOW,W1131 ==> expected: <3.0> but was: <2.0>,0.0
+W1132,FAIL,W-LOW,W1132 ==> expected: <3.0> but was: <2.0>,0.0
+W1133,FAIL,W-LOW,W1133 ==> expected: <3.0> but was: <2.0>,0.0
+W1134,FAIL,W-INVALID,"W1134 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1135,FAIL,W-INVALID,"W1135 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1136,FAIL,W-STUDENT,W1136 ==> expected: <1.0> but was: <0.0>,0.0
+W1137,FAIL,W-STUDENT,W1137 ==> expected: <0.0> but was: <1.0>,0.0
+W1138,FAIL,W-STUDENT,W1138 ==> expected: <0.0> but was: <1.0>,0.0
+W1139,FAIL,W-STUDENT,W1139 ==> expected: <0.0> but was: <1.0>,0.0
+W1140,FAIL,W-STUDENT,W1140 ==> expected: <0.0> but was: <1.0>,0.0
+W1141,FAIL,W-STUDENT,W1141 ==> expected: <0.0> but was: <1.0>,0.0
+W1142,FAIL,W-STUDENT,W1142 ==> expected: <1.0> but was: <0.0>,0.0
+W1143,FAIL,W-INVALID,"W1143 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1144,FAIL,W-INVALID,"W1144 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1145,FAIL,W-LOW,W1145 ==> expected: <3.0> but was: <2.0>,0.0
+W1146,FAIL,W-LOW,W1146 ==> expected: <3.0> but was: <2.0>,0.0
+W1147,FAIL,W-LOW,W1147 ==> expected: <3.0> but was: <2.0>,0.0
+W1148,FAIL,W-LOW,W1148 ==> expected: <3.0> but was: <2.0>,0.0
+W1149,FAIL,W-LOW,W1149 ==> expected: <3.0> but was: <2.0>,0.0
+W1150,FAIL,W-LOW,W1150 ==> expected: <3.0> but was: <2.0>,0.0
+W1151,FAIL,W-LOW,W1151 ==> expected: <3.0> but was: <2.0>,0.0
+W1152,FAIL,W-INVALID,"W1152 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1153,FAIL,W-INVALID,"W1153 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1154,FAIL,W-STUDENT,W1154 ==> expected: <1.0> but was: <0.0>,0.001
+W1155,FAIL,W-STUDENT,W1155 ==> expected: <0.0> but was: <1.0>,0.0
+W1156,FAIL,W-STUDENT,W1156 ==> expected: <0.0> but was: <1.0>,0.0
+W1157,FAIL,W-STUDENT,W1157 ==> expected: <0.0> but was: <1.0>,0.0
+W1158,FAIL,W-STUDENT,W1158 ==> expected: <0.0> but was: <1.0>,0.0
+W1159,FAIL,W-STUDENT,W1159 ==> expected: <0.0> but was: <1.0>,0.0
+W1160,FAIL,W-STUDENT,W1160 ==> expected: <1.0> but was: <0.0>,0.0
+W1161,FAIL,W-INVALID,"W1161 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1162,FAIL,W-INVALID,"W1162 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1163,PASS,—,,0.0
+W1164,PASS,—,,0.001
+W1165,PASS,—,,0.0
+W1166,PASS,—,,0.0
+W1167,PASS,—,,0.0
+W1168,PASS,—,,0.0
+W1169,PASS,—,,0.0
+W1170,FAIL,W-INVALID,"W1170 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1171,FAIL,W-INVALID,"W1171 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1172,FAIL,W-STUDENT,W1172 ==> expected: <1.0> but was: <0.0>,0.0
+W1173,FAIL,W-STUDENT,W1173 ==> expected: <0.0> but was: <1.0>,0.0
+W1174,FAIL,W-STUDENT,W1174 ==> expected: <0.0> but was: <1.0>,0.0
+W1175,FAIL,W-STUDENT,W1175 ==> expected: <0.0> but was: <1.0>,0.0
+W1176,FAIL,W-STUDENT,W1176 ==> expected: <0.0> but was: <1.0>,0.0
+W1177,FAIL,W-STUDENT,W1177 ==> expected: <0.0> but was: <1.0>,0.001
+W1178,FAIL,W-STUDENT,W1178 ==> expected: <1.0> but was: <0.0>,0.0
+W1179,FAIL,W-INVALID,"W1179 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1180,FAIL,W-INVALID,"W1180 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1181,PASS,—,,0.0
+W1182,PASS,—,,0.0
+W1183,PASS,—,,0.0
+W1184,PASS,—,,0.0
+W1185,PASS,—,,0.0
+W1186,PASS,—,,0.0
+W1187,PASS,—,,0.0
+W1188,FAIL,W-INVALID,"W1188 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1189,FAIL,W-INVALID,"W1189 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1190,FAIL,W-STUDENT,W1190 ==> expected: <1.0> but was: <0.0>,0.0
+W1191,FAIL,W-STUDENT,W1191 ==> expected: <0.0> but was: <1.0>,0.001
+W1192,FAIL,W-STUDENT,W1192 ==> expected: <0.0> but was: <1.0>,0.0
+W1193,FAIL,W-STUDENT,W1193 ==> expected: <0.0> but was: <1.0>,0.0
+W1194,FAIL,W-STUDENT,W1194 ==> expected: <0.0> but was: <1.0>,0.0
+W1195,FAIL,W-STUDENT,W1195 ==> expected: <0.0> but was: <1.0>,0.0
+W1196,FAIL,W-STUDENT,W1196 ==> expected: <1.0> but was: <0.0>,0.0
+W1197,FAIL,W-INVALID,"W1197 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1198,FAIL,W-INVALID,"W1198 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1199,PASS,—,,0.0
+W1200,PASS,—,,0.0
+W1201,PASS,—,,0.0
+W1202,PASS,—,,0.0
+W1203,PASS,—,,0.0
+W1204,PASS,—,,0.001
+W1205,PASS,—,,0.0
+W1206,FAIL,W-INVALID,"W1206 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1207,FAIL,W-INVALID,"W1207 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1208,FAIL,W-STUDENT,W1208 ==> expected: <1.0> but was: <0.0>,0.0
+W1209,FAIL,W-STUDENT,W1209 ==> expected: <0.0> but was: <1.0>,0.0
+W1210,FAIL,W-STUDENT,W1210 ==> expected: <0.0> but was: <1.0>,0.0
+W1211,FAIL,W-STUDENT,W1211 ==> expected: <0.0> but was: <1.0>,0.0
+W1212,FAIL,W-STUDENT,W1212 ==> expected: <0.0> but was: <1.0>,0.0
+W1213,FAIL,W-STUDENT,W1213 ==> expected: <0.0> but was: <1.0>,0.0
+W1214,FAIL,W-STUDENT,W1214 ==> expected: <1.0> but was: <0.0>,0.0
+W1215,FAIL,W-INVALID,"W1215 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1216,FAIL,W-INVALID,"W1216 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W1217,FAIL,W-HIGH,W1217 ==> expected: <0.0> but was: <1.0>,0.0
+W1218,FAIL,W-HIGH,W1218 ==> expected: <0.0> but was: <1.0>,0.0
+W1219,FAIL,W-HIGH,W1219 ==> expected: <0.0> but was: <1.0>,0.0
+W1220,FAIL,W-HIGH,W1220 ==> expected: <0.0> but was: <1.0>,0.0
+W1221,FAIL,W-HIGH,W1221 ==> expected: <0.0> but was: <1.0>,0.0
+W1222,FAIL,W-HIGH,W1222 ==> expected: <0.0> but was: <1.0>,0.0
+W1223,FAIL,W-HIGH,W1223 ==> expected: <0.0> but was: <1.0>,0.0
+W1224,FAIL,W-INVALID,"W1224 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1225,FAIL,W-INVALID,"W1225 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1226,FAIL,W-STUDENT,W1226 ==> expected: <1.0> but was: <0.0>,0.0
+W1227,FAIL,W-STUDENT,W1227 ==> expected: <0.0> but was: <1.0>,0.0
+W1228,FAIL,W-STUDENT,W1228 ==> expected: <0.0> but was: <1.0>,0.0
+W1229,FAIL,W-STUDENT,W1229 ==> expected: <0.0> but was: <1.0>,0.0
+W1230,FAIL,W-STUDENT,W1230 ==> expected: <0.0> but was: <1.0>,0.0
+W1231,FAIL,W-STUDENT,W1231 ==> expected: <0.0> but was: <1.0>,0.001
+W1232,FAIL,W-STUDENT,W1232 ==> expected: <1.0> but was: <0.0>,0.0
+W1233,FAIL,W-INVALID,"W1233 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1234,FAIL,W-INVALID,"W1234 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1235,FAIL,W-HIGH,W1235 ==> expected: <0.0> but was: <1.0>,0.0
+W1236,FAIL,W-HIGH,W1236 ==> expected: <0.0> but was: <1.0>,0.0
+W1237,FAIL,W-HIGH,W1237 ==> expected: <0.0> but was: <1.0>,0.0
+W1238,FAIL,W-HIGH,W1238 ==> expected: <0.0> but was: <1.0>,0.0
+W1239,FAIL,W-HIGH,W1239 ==> expected: <0.0> but was: <1.0>,0.0
+W1240,FAIL,W-HIGH,W1240 ==> expected: <0.0> but was: <1.0>,0.0
+W1241,FAIL,W-HIGH,W1241 ==> expected: <0.0> but was: <1.0>,0.0
+W1242,FAIL,W-INVALID,"W1242 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1243,FAIL,W-INVALID,"W1243 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1244,FAIL,W-STUDENT,W1244 ==> expected: <1.0> but was: <0.0>,0.0
+W1245,FAIL,W-STUDENT,W1245 ==> expected: <0.0> but was: <1.0>,0.0
+W1246,FAIL,W-STUDENT,W1246 ==> expected: <0.0> but was: <1.0>,0.0
+W1247,FAIL,W-STUDENT,W1247 ==> expected: <0.0> but was: <1.0>,0.001
+W1248,FAIL,W-STUDENT,W1248 ==> expected: <0.0> but was: <1.0>,0.0
+W1249,FAIL,W-STUDENT,W1249 ==> expected: <0.0> but was: <1.0>,0.0
+W1250,FAIL,W-STUDENT,W1250 ==> expected: <1.0> but was: <0.0>,0.0
+W1251,FAIL,W-INVALID,"W1251 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1252,FAIL,W-INVALID,"W1252 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1253,FAIL,W-HIGH,W1253 ==> expected: <0.0> but was: <1.0>,0.0
+W1254,FAIL,W-HIGH,W1254 ==> expected: <0.0> but was: <1.0>,0.0
+W1255,FAIL,W-HIGH,W1255 ==> expected: <0.0> but was: <1.0>,0.0
+W1256,FAIL,W-HIGH,W1256 ==> expected: <0.0> but was: <1.0>,0.0
+W1257,FAIL,W-HIGH,W1257 ==> expected: <0.0> but was: <1.0>,0.0
+W1258,FAIL,W-HIGH,W1258 ==> expected: <0.0> but was: <1.0>,0.0
+W1259,FAIL,W-HIGH,W1259 ==> expected: <0.0> but was: <1.0>,0.0
+W1260,FAIL,W-INVALID,"W1260 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1261,FAIL,W-INVALID,"W1261 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1262,FAIL,W-STUDENT,W1262 ==> expected: <1.0> but was: <0.0>,0.001
+W1263,FAIL,W-STUDENT,W1263 ==> expected: <0.0> but was: <1.0>,0.0
+W1264,FAIL,W-STUDENT,W1264 ==> expected: <0.0> but was: <1.0>,0.0
+W1265,FAIL,W-STUDENT,W1265 ==> expected: <0.0> but was: <1.0>,0.0
+W1266,FAIL,W-STUDENT,W1266 ==> expected: <0.0> but was: <1.0>,0.0
+W1267,FAIL,W-STUDENT,W1267 ==> expected: <0.0> but was: <1.0>,0.0
+W1268,FAIL,W-STUDENT,W1268 ==> expected: <1.0> but was: <0.0>,0.0
+W1269,FAIL,W-INVALID,"W1269 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1270,FAIL,W-INVALID,"W1270 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1271,PASS,—,,0.0
+W1272,PASS,—,,0.001
+W1273,PASS,—,,0.0
+W1274,PASS,—,,0.0
+W1275,PASS,—,,0.0
+W1276,PASS,—,,0.0
+W1277,PASS,—,,0.0
+W1278,FAIL,W-INVALID,"W1278 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1279,FAIL,W-INVALID,"W1279 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1280,FAIL,W-STUDENT,W1280 ==> expected: <1.0> but was: <0.0>,0.0
+W1281,FAIL,W-STUDENT,W1281 ==> expected: <0.0> but was: <1.0>,0.0
+W1282,FAIL,W-STUDENT,W1282 ==> expected: <0.0> but was: <1.0>,0.0
+W1283,FAIL,W-STUDENT,W1283 ==> expected: <0.0> but was: <1.0>,0.0
+W1284,FAIL,W-STUDENT,W1284 ==> expected: <0.0> but was: <1.0>,0.0
+W1285,FAIL,W-STUDENT,W1285 ==> expected: <0.0> but was: <1.0>,0.0
+W1286,FAIL,W-STUDENT,W1286 ==> expected: <1.0> but was: <0.0>,0.0
+W1287,FAIL,W-INVALID,"W1287 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1288,FAIL,W-INVALID,"W1288 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1289,PASS,—,,0.0
+W1290,PASS,—,,0.0
+W1291,PASS,—,,0.0
+W1292,PASS,—,,0.0
+W1293,PASS,—,,0.0
+W1294,PASS,—,,0.0
+W1295,PASS,—,,0.0
+W1296,FAIL,W-INVALID,"W1296 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1297,FAIL,W-INVALID,"W1297 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1298,FAIL,W-INVALID,"W1298 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1299,FAIL,W-INVALID,"W1299 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1300,FAIL,W-INVALID,"W1300 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1301,FAIL,W-INVALID,"W1301 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1302,FAIL,W-INVALID,"W1302 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1303,FAIL,W-INVALID,"W1303 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1304,FAIL,W-INVALID,"W1304 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1305,FAIL,W-INVALID,"W1305 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1306,FAIL,W-INVALID,"W1306 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1307,FAIL,W-INVALID,"W1307 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1308,FAIL,W-INVALID,"W1308 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1309,FAIL,W-INVALID,"W1309 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1310,FAIL,W-INVALID,"W1310 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1311,FAIL,W-INVALID,"W1311 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1312,FAIL,W-INVALID,"W1312 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1313,FAIL,W-INVALID,"W1313 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1314,FAIL,W-INVALID,"W1314 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1315,FAIL,W-INVALID,"W1315 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1316,FAIL,W-STUDENT,W1316 ==> expected: <1.00001> but was: <0.0>,0.0
+W1317,FAIL,W-STUDENT,W1317 ==> expected: <0.0> but was: <1.00001>,0.0
+W1318,FAIL,W-STUDENT,W1318 ==> expected: <0.0> but was: <1.00001>,0.0
+W1319,FAIL,W-STUDENT,W1319 ==> expected: <0.0> but was: <1.00001>,0.001
+W1320,FAIL,W-STUDENT,W1320 ==> expected: <0.0> but was: <1.00001>,0.0
+W1321,FAIL,W-STUDENT,W1321 ==> expected: <0.0> but was: <1.00001>,0.0
+W1322,FAIL,W-STUDENT,W1322 ==> expected: <1.00001> but was: <0.0>,0.0
+W1323,FAIL,W-INVALID,"W1323 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1324,FAIL,W-INVALID,"W1324 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1325,FAIL,W-LOW,W1325 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1326,FAIL,W-LOW,W1326 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1327,FAIL,W-LOW,W1327 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1328,FAIL,W-LOW,W1328 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1329,FAIL,W-LOW,W1329 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1330,FAIL,W-LOW,W1330 ==> expected: <3.00003> but was: <2.00002>,0.001
+W1331,FAIL,W-LOW,W1331 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1332,FAIL,W-INVALID,"W1332 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1333,FAIL,W-INVALID,"W1333 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1334,FAIL,W-STUDENT,W1334 ==> expected: <1.00001> but was: <0.0>,0.0
+W1335,FAIL,W-STUDENT,W1335 ==> expected: <0.0> but was: <1.00001>,0.0
+W1336,FAIL,W-STUDENT,W1336 ==> expected: <0.0> but was: <1.00001>,0.0
+W1337,FAIL,W-STUDENT,W1337 ==> expected: <0.0> but was: <1.00001>,0.0
+W1338,FAIL,W-STUDENT,W1338 ==> expected: <0.0> but was: <1.00001>,0.0
+W1339,FAIL,W-STUDENT,W1339 ==> expected: <0.0> but was: <1.00001>,0.0
+W1340,FAIL,W-STUDENT,W1340 ==> expected: <1.00001> but was: <0.0>,0.0
+W1341,FAIL,W-INVALID,"W1341 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1342,FAIL,W-INVALID,"W1342 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1343,FAIL,W-LOW,W1343 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1344,FAIL,W-LOW,W1344 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1345,FAIL,W-LOW,W1345 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1346,FAIL,W-LOW,W1346 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1347,FAIL,W-LOW,W1347 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1348,FAIL,W-LOW,W1348 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1349,FAIL,W-LOW,W1349 ==> expected: <3.00003> but was: <2.00002>,0.001
+W1350,FAIL,W-INVALID,"W1350 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1351,FAIL,W-INVALID,"W1351 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1352,FAIL,W-STUDENT,W1352 ==> expected: <1.00001> but was: <0.0>,0.0
+W1353,FAIL,W-STUDENT,W1353 ==> expected: <0.0> but was: <1.00001>,0.001
+W1354,FAIL,W-STUDENT,W1354 ==> expected: <0.0> but was: <1.00001>,0.0
+W1355,FAIL,W-STUDENT,W1355 ==> expected: <0.0> but was: <1.00001>,0.0
+W1356,FAIL,W-STUDENT,W1356 ==> expected: <0.0> but was: <1.00001>,0.0
+W1357,FAIL,W-STUDENT,W1357 ==> expected: <0.0> but was: <1.00001>,0.0
+W1358,FAIL,W-STUDENT,W1358 ==> expected: <1.00001> but was: <0.0>,0.0
+W1359,FAIL,W-INVALID,"W1359 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1360,FAIL,W-INVALID,"W1360 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1361,FAIL,W-LOW,W1361 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1362,FAIL,W-LOW,W1362 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1363,FAIL,W-LOW,W1363 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1364,FAIL,W-LOW,W1364 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1365,FAIL,W-LOW,W1365 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1366,FAIL,W-LOW,W1366 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1367,FAIL,W-LOW,W1367 ==> expected: <3.00003> but was: <2.00002>,0.0
+W1368,FAIL,W-INVALID,"W1368 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1369,FAIL,W-INVALID,"W1369 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1370,FAIL,W-STUDENT,W1370 ==> expected: <1.00001> but was: <0.0>,0.0
+W1371,FAIL,W-STUDENT,W1371 ==> expected: <0.0> but was: <1.00001>,0.0
+W1372,FAIL,W-STUDENT,W1372 ==> expected: <0.0> but was: <1.00001>,0.0
+W1373,FAIL,W-STUDENT,W1373 ==> expected: <0.0> but was: <1.00001>,0.0
+W1374,FAIL,W-STUDENT,W1374 ==> expected: <0.0> but was: <1.00001>,0.0
+W1375,FAIL,W-STUDENT,W1375 ==> expected: <0.0> but was: <1.00001>,0.0
+W1376,FAIL,W-STUDENT,W1376 ==> expected: <1.00001> but was: <0.0>,0.0
+W1377,FAIL,W-INVALID,"W1377 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1378,FAIL,W-INVALID,"W1378 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1379,PASS,—,,0.0
+W1380,PASS,—,,0.0
+W1381,PASS,—,,0.0
+W1382,PASS,—,,0.0
+W1383,PASS,—,,0.0
+W1384,PASS,—,,0.0
+W1385,PASS,—,,0.0
+W1386,FAIL,W-INVALID,"W1386 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1387,FAIL,W-INVALID,"W1387 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1388,FAIL,W-STUDENT,W1388 ==> expected: <1.00001> but was: <0.0>,0.0
+W1389,FAIL,W-STUDENT,W1389 ==> expected: <0.0> but was: <1.00001>,0.0
+W1390,FAIL,W-STUDENT,W1390 ==> expected: <0.0> but was: <1.00001>,0.0
+W1391,FAIL,W-STUDENT,W1391 ==> expected: <0.0> but was: <1.00001>,0.0
+W1392,FAIL,W-STUDENT,W1392 ==> expected: <0.0> but was: <1.00001>,0.0
+W1393,FAIL,W-STUDENT,W1393 ==> expected: <0.0> but was: <1.00001>,0.0
+W1394,FAIL,W-STUDENT,W1394 ==> expected: <1.00001> but was: <0.0>,0.0
+W1395,FAIL,W-INVALID,"W1395 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1396,FAIL,W-INVALID,"W1396 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1397,PASS,—,,0.0
+W1398,PASS,—,,0.0
+W1399,PASS,—,,0.001
+W1400,PASS,—,,0.0
+W1401,PASS,—,,0.0
+W1402,PASS,—,,0.0
+W1403,PASS,—,,0.0
+W1404,FAIL,W-INVALID,"W1404 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1405,FAIL,W-INVALID,"W1405 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1406,FAIL,W-STUDENT,W1406 ==> expected: <1.00001> but was: <0.0>,0.0
+W1407,FAIL,W-STUDENT,W1407 ==> expected: <0.0> but was: <1.00001>,0.001
+W1408,FAIL,W-STUDENT,W1408 ==> expected: <0.0> but was: <1.00001>,0.0
+W1409,FAIL,W-STUDENT,W1409 ==> expected: <0.0> but was: <1.00001>,0.0
+W1410,FAIL,W-STUDENT,W1410 ==> expected: <0.0> but was: <1.00001>,0.001
+W1411,FAIL,W-STUDENT,W1411 ==> expected: <0.0> but was: <1.00001>,0.0
+W1412,FAIL,W-STUDENT,W1412 ==> expected: <1.00001> but was: <0.0>,0.0
+W1413,FAIL,W-INVALID,"W1413 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1414,FAIL,W-INVALID,"W1414 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1415,PASS,—,,0.0
+W1416,PASS,—,,0.0
+W1417,PASS,—,,0.0
+W1418,PASS,—,,0.0
+W1419,PASS,—,,0.0
+W1420,PASS,—,,0.0
+W1421,PASS,—,,0.0
+W1422,FAIL,W-INVALID,"W1422 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1423,FAIL,W-INVALID,"W1423 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W1424,FAIL,W-STUDENT,W1424 ==> expected: <1.00001> but was: <0.0>,0.0
+W1425,FAIL,W-STUDENT,W1425 ==> expected: <0.0> but was: <1.00001>,0.0
+W1426,FAIL,W-STUDENT,W1426 ==> expected: <0.0> but was: <1.00001>,0.0
+W1427,FAIL,W-STUDENT,W1427 ==> expected: <0.0> but was: <1.00001>,0.0
+W1428,FAIL,W-STUDENT,W1428 ==> expected: <0.0> but was: <1.00001>,0.001
+W1429,FAIL,W-STUDENT,W1429 ==> expected: <0.0> but was: <1.00001>,0.0
+W1430,FAIL,W-STUDENT,W1430 ==> expected: <1.00001> but was: <0.0>,0.0
+W1431,FAIL,W-INVALID,"W1431 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1432,FAIL,W-INVALID,"W1432 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1433,FAIL,W-HIGH,W1433 ==> expected: <0.0> but was: <1.00001>,0.0
+W1434,FAIL,W-HIGH,W1434 ==> expected: <0.0> but was: <1.00001>,0.0
+W1435,FAIL,W-HIGH,W1435 ==> expected: <0.0> but was: <1.00001>,0.0
+W1436,FAIL,W-HIGH,W1436 ==> expected: <0.0> but was: <1.00001>,0.0
+W1437,FAIL,W-HIGH,W1437 ==> expected: <0.0> but was: <1.00001>,0.0
+W1438,FAIL,W-HIGH,W1438 ==> expected: <0.0> but was: <1.00001>,0.0
+W1439,FAIL,W-HIGH,W1439 ==> expected: <0.0> but was: <1.00001>,0.0
+W1440,FAIL,W-INVALID,"W1440 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1441,FAIL,W-INVALID,"W1441 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1442,FAIL,W-STUDENT,W1442 ==> expected: <1.00001> but was: <0.0>,0.0
+W1443,FAIL,W-STUDENT,W1443 ==> expected: <0.0> but was: <1.00001>,0.0
+W1444,FAIL,W-STUDENT,W1444 ==> expected: <0.0> but was: <1.00001>,0.001
+W1445,FAIL,W-STUDENT,W1445 ==> expected: <0.0> but was: <1.00001>,0.0
+W1446,FAIL,W-STUDENT,W1446 ==> expected: <0.0> but was: <1.00001>,0.0
+W1447,FAIL,W-STUDENT,W1447 ==> expected: <0.0> but was: <1.00001>,0.0
+W1448,FAIL,W-STUDENT,W1448 ==> expected: <1.00001> but was: <0.0>,0.0
+W1449,FAIL,W-INVALID,"W1449 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1450,FAIL,W-INVALID,"W1450 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1451,FAIL,W-HIGH,W1451 ==> expected: <0.0> but was: <1.00001>,0.0
+W1452,FAIL,W-HIGH,W1452 ==> expected: <0.0> but was: <1.00001>,0.0
+W1453,FAIL,W-HIGH,W1453 ==> expected: <0.0> but was: <1.00001>,0.0
+W1454,FAIL,W-HIGH,W1454 ==> expected: <0.0> but was: <1.00001>,0.0
+W1455,FAIL,W-HIGH,W1455 ==> expected: <0.0> but was: <1.00001>,0.0
+W1456,FAIL,W-HIGH,W1456 ==> expected: <0.0> but was: <1.00001>,0.0
+W1457,FAIL,W-HIGH,W1457 ==> expected: <0.0> but was: <1.00001>,0.0
+W1458,FAIL,W-INVALID,"W1458 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1459,FAIL,W-INVALID,"W1459 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W1460,FAIL,W-STUDENT,W1460 ==> expected: <1.00001> but was: <0.0>,0.0
+W1461,FAIL,W-STUDENT,W1461 ==> expected: <0.0> but was: <1.00001>,0.0
+W1462,FAIL,W-STUDENT,W1462 ==> expected: <0.0> but was: <1.00001>,0.0
+W1463,FAIL,W-STUDENT,W1463 ==> expected: <0.0> but was: <1.00001>,0.0
+W1464,FAIL,W-STUDENT,W1464 ==> expected: <0.0> but was: <1.00001>,0.0
+W1465,FAIL,W-STUDENT,W1465 ==> expected: <0.0> but was: <1.00001>,0.0
+W1466,FAIL,W-STUDENT,W1466 ==> expected: <1.00001> but was: <0.0>,0.0
+W1467,FAIL,W-INVALID,"W1467 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1468,FAIL,W-INVALID,"W1468 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1469,FAIL,W-HIGH,W1469 ==> expected: <0.0> but was: <1.00001>,0.0
+W1470,FAIL,W-HIGH,W1470 ==> expected: <0.0> but was: <1.00001>,0.0
+W1471,FAIL,W-HIGH,W1471 ==> expected: <0.0> but was: <1.00001>,0.0
+W1472,FAIL,W-HIGH,W1472 ==> expected: <0.0> but was: <1.00001>,0.0
+W1473,FAIL,W-HIGH,W1473 ==> expected: <0.0> but was: <1.00001>,0.0
+W1474,FAIL,W-HIGH,W1474 ==> expected: <0.0> but was: <1.00001>,0.0
+W1475,FAIL,W-HIGH,W1475 ==> expected: <0.0> but was: <1.00001>,0.001
+W1476,FAIL,W-INVALID,"W1476 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1477,FAIL,W-INVALID,"W1477 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1478,FAIL,W-STUDENT,W1478 ==> expected: <1.00001> but was: <0.0>,0.0
+W1479,FAIL,W-STUDENT,W1479 ==> expected: <0.0> but was: <1.00001>,0.0
+W1480,FAIL,W-STUDENT,W1480 ==> expected: <0.0> but was: <1.00001>,0.0
+W1481,FAIL,W-STUDENT,W1481 ==> expected: <0.0> but was: <1.00001>,0.0
+W1482,FAIL,W-STUDENT,W1482 ==> expected: <0.0> but was: <1.00001>,0.0
+W1483,FAIL,W-STUDENT,W1483 ==> expected: <0.0> but was: <1.00001>,0.0
+W1484,FAIL,W-STUDENT,W1484 ==> expected: <1.00001> but was: <0.0>,0.0
+W1485,FAIL,W-INVALID,"W1485 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1486,FAIL,W-INVALID,"W1486 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1487,PASS,—,,0.0
+W1488,PASS,—,,0.0
+W1489,PASS,—,,0.0
+W1490,PASS,—,,0.0
+W1491,PASS,—,,0.0
+W1492,PASS,—,,0.0
+W1493,PASS,—,,0.0
+W1494,FAIL,W-INVALID,"W1494 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+W1495,FAIL,W-INVALID,"W1495 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1496,FAIL,W-STUDENT,W1496 ==> expected: <1.00001> but was: <0.0>,0.0
+W1497,FAIL,W-STUDENT,W1497 ==> expected: <0.0> but was: <1.00001>,0.0
+W1498,FAIL,W-STUDENT,W1498 ==> expected: <0.0> but was: <1.00001>,0.0
+W1499,FAIL,W-STUDENT,W1499 ==> expected: <0.0> but was: <1.00001>,0.0
+W1500,FAIL,W-STUDENT,W1500 ==> expected: <0.0> but was: <1.00001>,0.0
+W1501,FAIL,W-STUDENT,W1501 ==> expected: <0.0> but was: <1.00001>,0.0
+W1502,FAIL,W-STUDENT,W1502 ==> expected: <1.00001> but was: <0.0>,0.0
+W1503,FAIL,W-INVALID,"W1503 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1504,FAIL,W-INVALID,"W1504 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+W1505,PASS,—,,0.0
+W1506,PASS,—,,0.0
+W1507,PASS,—,,0.0
+W1508,PASS,—,,0.0
+W1509,PASS,—,,0.0
+W1510,PASS,—,,0.0
+W1511,PASS,—,,0.0
+W1512,FAIL,W-INVALID,"W1512 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+D01,FAIL,D-STUDENT-LOW,D01 ==> expected: <0.0> but was: <0.05>,0.0
+D02,FAIL,D-STUDENT-LOW,D02 ==> expected: <0.0> but was: <0.05>,0.0
+D03,PASS,—,,0.0
+D04,FAIL,D-STUDENT-HIGH,D04 ==> expected: <0.1875> but was: <0.15>,0.0
+D05,FAIL,D-STUDENT-HIGH,D05 ==> expected: <0.375> but was: <0.15>,0.0
+D06,PASS,—,,0.0
+D07,FAIL,D-NONSTUDENT-LOW,D07 ==> expected: <0.125> but was: <0.0>,0.0
+D08,FAIL,D-NONSTUDENT-LOW,D08 ==> expected: <0.125> but was: <0.0>,0.0
+D09,FAIL,D-NONSTUDENT-LOW,D09 ==> expected: <0.0> but was: <0.625>,0.0
+D10,FAIL,D-NONSTUDENT-HIGH,D10 ==> expected: <1.5> but was: <0.0>,0.0
+D11,FAIL,D-NONSTUDENT-HIGH,D11 ==> expected: <3.0> but was: <0.0>,0.0
+D12,FAIL,D-NONSTUDENT-HIGH,D12 ==> expected: <3.0> but was: <1.875>,0.0
+D13,FAIL,D-STUDENT-LOW,D13 ==> expected: <0.0> but was: <0.1>,0.0
+D14,FAIL,D-STUDENT-LOW,D14 ==> expected: <0.0> but was: <0.1>,0.0
+D15,FAIL,D-STUDENT-HIGH,D15 ==> expected: <0.1875> but was: <0.15>,0.0
+D16,FAIL,D-NONSTUDENT-LOW,D16 ==> expected: <0.25> but was: <0.0>,0.0
+D17,FAIL,D-NONSTUDENT-LOW,D17 ==> expected: <0.25> but was: <0.0>,0.0
+D18,FAIL,D-NONSTUDENT-HIGH,D18 ==> expected: <1.5> but was: <0.0>,0.0
+D19,PASS,—,,0.001
+D20,PASS,—,,0.0
+D21,FAIL,D-INVALID,"D21 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.001
+D22,FAIL,D-INVALID,"D22 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+D23,FAIL,D-INVALID,"D23 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+D24,FAIL,D-INVALID,"D24 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.",0.0
+T01,FAIL,T-RULES,T01 ==> expected: <0.199> but was: <4.9750000000000005>,0.0
+T02,FAIL,T-RULES,T02 ==> expected: <0.0995> but was: <2.4875000000000003>,0.0
+T03,FAIL,T-RULES,T03 ==> expected: <0.0995> but was: <4.9750000000000005>,0.0
+T04,FAIL,T-RULES,T04 ==> expected: <0.04975> but was: <2.4875000000000003>,0.001
+T05,FAIL,T-RULES,T05 ==> expected: <0.1> but was: <5.0>,0.0
+T06,FAIL,T-RULES,T06 ==> expected: <0.05> but was: <2.5>,0.0
+T07,FAIL,T-RULES,T07 ==> expected: <0.5> but was: <5.0>,0.0
+T08,FAIL,T-RULES,T08 ==> expected: <0.25> but was: <2.5>,0.0
+T09,FAIL,T-RULES,T09 ==> expected: <0.198> but was: <4.95>,0.0
+T10,FAIL,T-RULES,T10 ==> expected: <0.099> but was: <4.95>,0.0
+T11,FAIL,T-RULES,T11 ==> expected: <0.99> but was: <4.95>,0.0
+T12,FAIL,T-RULES,T12 ==> expected: <0.495> but was: <4.95>,0.001
+T13,FAIL,T-RULES,T13 ==> expected: <0.2> but was: <5.0>,0.0
+T14,FAIL,T-RULES,T14 ==> expected: <0.1> but was: <5.5>,0.0
+T15,FAIL,T-RULES,T15 ==> expected: <0.5> but was: <5.0>,0.0
+T16,FAIL,T-RULES,T16 ==> expected: <0.25> but was: <5.5>,0.0
