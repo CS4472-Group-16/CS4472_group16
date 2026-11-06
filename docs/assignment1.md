@@ -111,7 +111,7 @@ The first seven amounts are each paired with all five valid PIN representatives.
 | S48 | 1010 | Nearest dispensable amount above the limit (one 50-dollar bill and 48 20-dollar bills) | Reject |
 | S49 | 1020 | Above the limit and dispensable using 51 20-dollar bills | Reject |
 
-**Single-fault example.** An invalid PIN is tested through the PIN entry path. The 1,020-dollar withdrawal uses a valid PIN and a dispensable amount so that only the daily-limit rule is violated.
+**Single-fault example.** The PIN and amount are varied separately when testing invalid inputs. One amount can still violate two rules. For example, 1,001 dollars is both above the limit and non-dispensable, so its rejection cannot isolate the limit check. S49 uses a valid PIN and a dispensable amount of 1,020 dollars to isolate that rule.
 
 **Why S48 passes and S49 fails.** Both amounts are dispensable under the specification and should be rejected for exceeding the daily limit. The current cash validator rejects 1,010 because it checks the remainder after taking as many 50-dollar bills as possible. S48 therefore gets the expected exception for the wrong reason. The validator accepts 1,020, and S49 exposes the missing limit check.
 
