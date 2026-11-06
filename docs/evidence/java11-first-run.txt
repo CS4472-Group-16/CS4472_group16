@@ -1,0 +1,19 @@
+Temurin Java 11.0.32.1; Maven 3.8.5
+Command: mvn -B -Dmaven.test.failure.ignore=true test
+
+[INFO] Running bank.utils.WithdrawalFeeTest
+[ERROR] Tests run: 1512, Failures: 1183, Errors: 0, Skipped: 0, Time elapsed: 0.575 s <<< FAILURE! -- in bank.utils.WithdrawalFeeTest
+[INFO] Running bank.utils.FeesCalculatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in bank.utils.FeesCalculatorTest
+[INFO] Running bank.utils.DepositFeeTest
+[ERROR] Tests run: 24, Failures: 20, Errors: 0, Skipped: 0, Time elapsed: 0.010 s <<< FAILURE! -- in bank.utils.DepositFeeTest
+[INFO] Running bank.utils.TransferFeeTest
+[ERROR] Tests run: 16, Failures: 16, Errors: 0, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in bank.utils.TransferFeeTest
+[INFO] Running atm.ATMTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.029 s -- in atm.ATMTest
+[INFO] Running atm.session.SessionTest
+[ERROR] Tests run: 94, Failures: 32, Errors: 0, Skipped: 0, Time elapsed: 0.076 s <<< FAILURE! -- in atm.session.SessionTest
+[ERROR] Tests run: 1649, Failures: 1251, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+[INFO] Total time:  31.279 s
+[INFO] Finished at: 2026-11-05T20:13:07-05:00

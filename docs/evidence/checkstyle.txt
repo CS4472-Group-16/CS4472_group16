@@ -1,0 +1,16 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------------< ca.uwo:atm >-----------------------------
+[INFO] Building atm 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.3.1:check (default-cli) @ atm ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.650 s
+[INFO] Finished at: 2026-11-05T20:18:34-05:00
+[INFO] ------------------------------------------------------------------------

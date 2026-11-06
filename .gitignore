@@ -1,0 +1,6 @@
+target/
+bank.db
+.DS_Store
+.idea/
+*.iml
+.venv/
