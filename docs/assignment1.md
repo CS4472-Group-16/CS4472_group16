@@ -108,10 +108,12 @@ The first seven amounts are each paired with all five valid PIN representatives.
 | S45 | 90 | One 50-dollar and two 20-dollar bills | Accept |
 | S46 | 110 | One 50-dollar and three 20-dollar bills | Accept |
 | S47 | 990 | Nearest dispensable amount below the limit | Accept |
-| S48 | 1010 | Above the limit and cannot be dispensed | Reject |
-| S49 | 1020 | Nearest dispensable amount above the limit | Reject |
+| S48 | 1010 | Nearest dispensable amount above the limit (one 50-dollar bill and 48 20-dollar bills) | Reject |
+| S49 | 1020 | Above the limit and dispensable using 51 20-dollar bills | Reject |
 
 **Single-fault example.** An invalid PIN is tested through the PIN entry path. The 1,020-dollar withdrawal uses a valid PIN and a dispensable amount so that only the daily-limit rule is violated.
+
+**Why S48 passes and S49 fails.** Both amounts are dispensable under the specification and should be rejected for exceeding the daily limit. The current cash validator rejects 1,010 because it checks the remainder after taking as many 50-dollar bills as possible. S48 therefore gets the expected exception for the wrong reason. The validator accepts 1,020, and S49 exposes the missing limit check.
 
 The oracle checks whether a positive amount at or below \$1,000 can be expressed as `20*x + 50*y` for nonnegative integers `x` and `y`. Invalid amounts are expected to throw `InvalidAmountException`. See [S01–S49](#session) for every PIN and amount pairing.
 
