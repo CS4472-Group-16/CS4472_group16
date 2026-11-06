@@ -142,7 +142,7 @@ def main():
     design = document.read_text().split(MARKER)[0]
     document.write_text(design + MARKER + "\n" + "\n".join(lines))
     with (DOCS / "assignment1-results.csv").open("w", newline="") as stream:
-        writer = csv.writer(stream)
+        writer = csv.writer(stream, lineterminator="\n")
         writer.writerow(["case", "result", "fault", "observed_assertion", "runtime_seconds"])
         for case_id, result in results.items():
             writer.writerow([case_id, *result])

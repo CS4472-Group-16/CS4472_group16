@@ -14,7 +14,7 @@ OUT = ROOT / "src/test/resources/assignment1"
 def save(name, columns, rows):
     OUT.mkdir(parents=True, exist_ok=True)
     with (OUT / (name + ".csv")).open("w", newline="") as stream:
-        writer = csv.writer(stream)
+        writer = csv.writer(stream, lineterminator="\n")
         writer.writerow(columns)
         writer.writerows(rows)
 
